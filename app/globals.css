@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Paleta personalizada - Servicios del hogar Zona Norte */
+    /* Azul petróleo #0A2A43 -> HSL: 203 74% 15% */
+    /* Azul acero claro #3F6E8F -> HSL: 203 39% 40% */
+    /* Gris claro neutro #F4F5F7 -> HSL: 220 20% 96% */
+    /* Gris medio profesional #636B75 -> HSL: 210 8% 42% */
+    /* Amarillo ámbar #F2B441 -> HSL: 40 87% 60% */
+    
+    --background: 220 20% 96%; /* Gris claro neutro */
+    --foreground: 203 74% 15%; /* Azul petróleo */
+    --card: 0 0% 100%; /* Blanco */
+    --card-foreground: 203 74% 15%; /* Azul petróleo */
+    --popover: 0 0% 100%;
+    --popover-foreground: 203 74% 15%;
+    --primary: 203 74% 15%; /* Azul petróleo - Header, botones principales */
+    --primary-foreground: 0 0% 100%; /* Blanco */
+    --secondary: 220 20% 96%; /* Gris claro neutro */
+    --secondary-foreground: 203 74% 15%; /* Azul petróleo */
+    --muted: 220 20% 96%; /* Gris claro neutro */
+    --muted-foreground: 210 8% 42%; /* Gris medio profesional */
+    --accent: 40 87% 60%; /* Amarillo ámbar - CTAs, destacados */
+    --accent-foreground: 203 74% 15%; /* Azul petróleo */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 8% 42%; /* Gris medio profesional */
+    --input: 210 8% 42%;
+    --ring: 203 39% 40%; /* Azul acero claro */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Modo oscuro adaptado a la paleta */
+    --background: 203 74% 15%; /* Azul petróleo */
+    --foreground: 0 0% 100%; /* Blanco */
+    --card: 203 74% 15%;
+    --card-foreground: 0 0% 100%;
+    --popover: 203 74% 15%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 40 87% 60%; /* Amarillo ámbar */
+    --primary-foreground: 203 74% 15%; /* Azul petróleo */
+    --secondary: 203 39% 40%; /* Azul acero claro */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 203 39% 40%;
+    --muted-foreground: 220 20% 96%;
+    --accent: 40 87% 60%; /* Amarillo ámbar */
+    --accent-foreground: 203 74% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 203 39% 40%;
+    --input: 203 39% 40%;
+    --ring: 40 87% 60%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
