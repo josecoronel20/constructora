@@ -1,0 +1,4030 @@
+[
+  {
+    "id": "plomeria",
+    "slug": "plomeria",
+    "title": "Plomería en Zona Norte – Reparaciones e Instalaciones",
+    "shortTitle": "Plomería Zona Norte",
+    "meta": {
+      "title": "Plomería en Zona Norte – Plomeros Profesionales | Reparaciones y Emergencias",
+      "description": "Plomería en Zona Norte. Soluciones inmediatas: destapes, instalación de sanitarios, reparación de filtraciones, termotanques y redes de agua. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "plomeria zona norte, plomero pilar, destape zona norte, reparación de cañerías, filtraciones zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/plomeria",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/plomeria",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🔧",
+    "serviceName": "Plomero",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Plomería que Ofrecemos",
+        "description": "Como plomero en Zona Norte, cubrimos todas las necesidades de plomería de tu hogar, desde reparaciones urgentes hasta instalaciones completas."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu plomero en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como plomeros en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Plomero en todas las localidades de Zona Norte",
+        "description": "Atendemos como plomeros en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un plomero en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Plomería en Zona Norte – Técnicos Expertos en Reparaciones y Emergencias",
+      "subtitle": "Destapes, filtraciones, cambio de cañerías, instalación de artefactos y mantenimiento preventivo. Respuesta rápida y garantía escrita.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/54911XXXXYYYY",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-plomeria-san-martin.png",
+        "alt": "Taller de plomería ordenado con herramientas colgadas y mangueras, estilo moderno y profesional",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.45, "y": 0.35 },
+        "recommendedAIPrompt": "modern plumbing workshop background, organized wall with pipes and professional plumbing tools, soft studio lighting, neutral tones, minimal, wide shot, high resolution, no people"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Destape de cañerías y desagües",
+      "Reparación y sustitución de cañerías (PVC, cobre, multicapa)",
+      "Detección y reparación de filtraciones",
+      "Instalación y reemplazo de sanitarios y griferías",
+      "Instalación y mantenimiento de termotanques",
+      "Instalación de bombas de agua y presurizadores",
+      "Instalación de sistemas de riego y conexiones de exteriores",
+      "Revisión y mantenimiento preventivo",
+      "Sistemas de desagüe pluvial y limpieza de sumideros",
+      "Soldadura y reparaciones de urgencia"
+    ],
+    "benefits": [
+      "Técnicos certificados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales homologados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "renovacion-red-hidraulica",
+        "titulo": "Renovación de red hidráulica",
+        "descripcion": "Reemplazo integral de cañerías internas con materiales certificados, risers y puesta a tierra para instalaciones de agua caliente y fría.",
+        "icon": "🔧",
+        "image": {
+          "src": "/images/services/plomeria/ejemplo-renovacion.jpg",
+          "alt": "Trabajo de renovación de cañerías, vistas de tuberías nuevas y grupas de instalación",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "destape-urgente",
+        "titulo": "Destape y limpieza de desagües",
+        "descripcion": "Servicio de emergencia para obstrucciones con camión destapador o limpieza manual según necesidad. Prevención de malos olores y backups.",
+        "icon": "🚽",
+        "image": {
+          "src": "/images/services/plomeria/ejemplo-destape.jpg",
+          "alt": "Técnico realizando destape con equipo profesional",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "reparacion-filtracion",
+        "titulo": "Detección y reparación de filtraciones",
+        "descripcion": "Localización con cámaras y reparación localizada de filtraciones en paredes y techos, con garantía de estanqueidad.",
+        "icon": "💧",
+        "image": {
+          "src": "/images/services/plomeria/ejemplo-filtracion.jpg",
+          "alt": "Prueba de estanqueidad y parche de filtración",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Prueba final, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" }
+    ],
+    "gallery": [
+      { "src": "/images/services/plomeria/gallery-1.jpg", "alt": "Herramientas de plomería organizadas", "caption": "Herramientas y taller", "order": 1 },
+      { "src": "/images/services/plomeria/gallery-2.jpg", "alt": "Trabajo de reparación en cañería empotrada", "caption": "Reparación en pared", "order": 2 },
+      { "src": "/images/services/plomeria/gallery-3.jpg", "alt": "Instalación de termotanque", "caption": "Instalación de termotanque", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Atienden emergencias 24/7?",
+        "a": "Sí. Tenemos servicio de guardia para emergencias (destapes y filtraciones) con llamada previa."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo."
+      },
+      {
+        "q": "¿Trabajan con materiales propios o del cliente?",
+        "a": "Preferimos proveer materiales homologados; si el cliente aporta materiales, se revisan antes de la instalación."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "María G.",
+        "text": "Rápidos, profesionales y dejaron todo prolijo. Resolvieron una filtración que venía hace meses.",
+        "rating": 5,
+        "date": "2025-09-10"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": 3500,
+      "estimateSample": [
+        { "task": "Destape simple", "priceFrom": 2500 },
+        { "task": "Reemplazo de tramo de cañería (por metro)", "priceFrom": 1800 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 6,
+      "certifications": [
+        { "name": "Registro Profesional de Instaladores", "id": "RP-12345" },
+        { "name": "Normas IRAM aplicables", "reference": "IRAM 2474" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 XXXX YYYY",
+      "whatsapp": "https://wa.me/54911XXXXYYYY",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Plomería en Zona Norte – Reparaciones y Urgencias",
+        "description": "Plomería en Zona Norte. Destapes, filtraciones, instalación y mantenimiento. Atención rápida y trabajo garantizado.",
+        "image": "/images/services/plomeria/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Plomería en Zona Norte",
+        "image": "/images/services/plomeria/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Plomería", "url": "/servicios/plomeria" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Plomería",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+54911XXXXYYYY",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/plomeria"
+        },
+        "description": "Servicios de plomería: destapes, reparaciones, instalaciones y mantenimiento para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Atienden emergencias 24/7?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Tenemos servicio de guardia para emergencias (destapes y filtraciones) con llamada previa." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Cortes, obstrucciones, filtraciones y viejas instalaciones. Ofrecemos diagnóstico, presupuesto y reparaciones definitivas."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/54911XXXXYYYY" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["plomeria", "destape", "filtraciones", "zona norte", "servicios hogar"],
+    "relatedServices": ["electricidad", "albanileria", "pintura"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "electricidad",
+    "slug": "electricidad",
+    "title": "Electricidad en Zona Norte – Instalaciones y Reparaciones",
+    "shortTitle": "Electricidad Zona Norte",
+    "meta": {
+      "title": "Electricista en Zona Norte – Profesionales Certificados | Instalaciones y Reparaciones",
+      "description": "Electricista en Zona Norte. Soluciones rápidas y garantizadas en hogares. Instalaciones eléctricas, reparaciones urgentes, tableros, cableado, luminarias LED y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "electricista zona norte, electricista pilar, electricista san isidro, instalaciones electricas zona norte, reparaciones electricas",
+      "canonical": "https://servicioszonanorte.com/servicios/electricidad",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/electricidad",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "⚡",
+    "serviceName": "Electricista",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Electricidad que Ofrecemos",
+        "description": "Como electricista en Zona Norte, cubrimos todas las necesidades eléctricas de tu hogar, desde instalaciones completas hasta reparaciones urgentes."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu electricista en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como electricistas en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Electricista en todas las localidades de Zona Norte",
+        "description": "Atendemos como electricistas en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un electricista en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Electricista en Zona Norte – Técnicos Expertos en Instalaciones y Reparaciones",
+      "subtitle": "Instalaciones eléctricas completas, renovación de cableado, tableros, reparaciones urgentes y sistemas de seguridad. Respuesta rápida y garantía escrita.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/hero-electricista-tablero-pilar.png",
+        "alt": "Electricista profesional trabajando en tablero eléctrico, instalación moderna y segura",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional electrician working on modern electrical panel, organized cables, safety equipment, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,1) 100%)",
+        "tailwindClasses": "bg-white text-[#0A2A43]"
+      }
+    },
+    "servicesIncluded": [
+      "Instalaciones eléctricas completas en viviendas",
+      "Renovación de cableado",
+      "Tableros eléctricos y llaves térmicas",
+      "Puestas a tierra",
+      "Instalación de luminarias interiores/exteriores",
+      "Instalación de tomas y teclas",
+      "Reparación de cortocircuitos y fallas",
+      "Instalación de disyuntores y protecciones",
+      "Instalación de artefactos eléctricos (ventiladores, termotanques eléctricos, extractores)",
+      "Instalación de cámaras y sistemas de seguridad",
+      "Instalación de porteros eléctricos / videoporteros",
+      "Iluminación de parque y jardín"
+    ],
+    "benefits": [
+      "Técnicos especializados y certificados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas IRAM y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "renovacion-completa",
+        "titulo": "Renovación completa de instalación",
+        "descripcion": "Actualización de cableado antiguo, nuevo tablero eléctrico y puesta a tierra. Solución definitiva para cortes y problemas de tensión.",
+        "icon": "🔌",
+        "image": {
+          "src": "/images/services/electricidad/ejemplo-renovacion.jpg",
+          "alt": "Tablero eléctrico moderno con cableado organizado y puesta a tierra",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "luminarias-led",
+        "titulo": "Instalación de luminarias LED",
+        "descripcion": "Iluminación moderna y eficiente para interiores y exteriores. Ahorro energético y mejor iluminación en toda la vivienda.",
+        "icon": "💡",
+        "image": {
+          "src": "/images/services/electricidad/ejemplo-luminarias.jpg",
+          "alt": "Instalación de luminarias LED modernas en interiores",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "reparacion-cortocircuitos",
+        "titulo": "Reparación de cortocircuitos urgentes",
+        "descripcion": "Atención inmediata para cortes de luz, disyuntores que saltan y fallas eléctricas. Diagnóstico rápido y solución garantizada.",
+        "icon": "⚡",
+        "image": {
+          "src": "/images/services/electricidad/ejemplo-reparacion.jpg",
+          "alt": "Electricista reparando cortocircuito en instalación",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "sistemas-seguridad",
+        "titulo": "Sistemas de seguridad y videoporteros",
+        "descripcion": "Instalación profesional de cámaras de seguridad, alarmas y videoporteros. Conexión y configuración completa.",
+        "icon": "📹",
+        "image": {
+          "src": "/images/services/electricidad/ejemplo-seguridad.jpg",
+          "alt": "Instalación de sistema de seguridad y videoportero",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Prueba final, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/electricidad/gallery-1.jpg", "alt": "Tablero eléctrico moderno organizado", "caption": "Tablero eléctrico", "order": 1 },
+      { "src": "/images/services/electricidad/gallery-2.jpg", "alt": "Instalación de cableado en vivienda", "caption": "Cableado profesional", "order": 2 },
+      { "src": "/images/services/electricidad/gallery-3.jpg", "alt": "Luminarias LED instaladas", "caption": "Iluminación LED", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Atienden emergencias eléctricas 24/7?",
+        "a": "Sí. Tenemos servicio de guardia para emergencias eléctricas (cortes de luz, cortocircuitos) con llamada previa."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Trabajan con materiales propios o del cliente?",
+        "a": "Preferimos proveer materiales certificados IRAM; si el cliente aporta materiales, se revisan antes de la instalación."
+      },
+      {
+        "q": "¿Hacen certificaciones de instalación?",
+        "a": "Sí. Emitimos certificaciones de instalación eléctrica según normas IRAM vigentes."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Carlos R.",
+        "text": "Excelente trabajo. Renovaron toda la instalación eléctrica de mi casa y quedó perfecto. Muy profesionales.",
+        "rating": 5,
+        "date": "2025-10-15"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": 4000,
+      "estimateSample": [
+        { "task": "Reparación de cortocircuito simple", "priceFrom": 3000 },
+        { "task": "Instalación de toma corriente (por unidad)", "priceFrom": 2500 },
+        { "task": "Renovación de cableado (por metro)", "priceFrom": 2000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Registro Profesional de Electricistas", "id": "RP-ELEC-12345" },
+        { "name": "Normas IRAM aplicables", "reference": "IRAM 2281, IRAM 2404" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Electricista en Zona Norte – Instalaciones y Reparaciones",
+        "description": "Electricista en Zona Norte. Instalaciones eléctricas, reparaciones urgentes, tableros y cableado. Atención rápida y trabajo garantizado.",
+        "image": "/images/services/electricidad/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Electricista en Zona Norte",
+        "image": "/images/services/electricidad/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Electricidad", "url": "/servicios/electricidad" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Electricidad",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/electricidad"
+        },
+        "description": "Servicios de electricidad: instalaciones eléctricas, reparaciones, tableros, cableado y sistemas de seguridad para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Atienden emergencias eléctricas 24/7?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Tenemos servicio de guardia para emergencias eléctricas (cortes de luz, cortocircuitos) con llamada previa." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Cortes de luz, cortocircuitos, instalaciones antiguas y falta de puesta a tierra. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con materiales certificados."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["electricidad", "electricista", "instalaciones electricas", "zona norte", "servicios hogar", "tableros electricos"],
+    "relatedServices": ["plomeria", "gas", "albanileria"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "gas",
+    "slug": "gas",
+    "title": "Gas en Zona Norte – Instalaciones y Reparaciones",
+    "shortTitle": "Gas Zona Norte",
+    "meta": {
+      "title": "Gasista en Zona Norte – Profesionales Matriculados | Instalaciones y Reparaciones",
+      "description": "Gasista en Zona Norte. Soluciones rápidas y garantizadas en hogares. Instalación de artefactos a gas, reparación de pérdidas, extensión de cañerías, calefactores y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "gasista zona norte, gasista pilar, gasista san isidro, instalaciones gas zona norte, reparaciones gas, gasista matriculado zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/gas",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/gas",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🔥",
+    "serviceName": "Gasista",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Gas que Ofrecemos",
+        "description": "Como gasista en Zona Norte, cubrimos todas las necesidades de gas de tu hogar, desde instalaciones hasta reparaciones urgentes."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu gasista en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como gasistas en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Gasista en todas las localidades de Zona Norte",
+        "description": "Atendemos como gasistas en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un gasista en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Gasista en Zona Norte – Técnicos Matriculados en Instalaciones y Reparaciones",
+      "subtitle": "Instalación de artefactos a gas, reparación de pérdidas, extensión de cañerías y calefactores. Trabajos certificados y seguros. (Según matriculado)",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-gasista-san-miguel.png",
+        "alt": "Gasista profesional trabajando en instalación de gas, seguridad y profesionalismo",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional gas installer working on gas installation, safety equipment, modern gas appliances, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Instalación de artefactos a gas",
+      "Reparación de pérdidas internas",
+      "Extensión de cañerías",
+      "Conversión y cambio de reguladores",
+      "Cambio de llaves y válvulas",
+      "Instalación de calefactores"
+    ],
+    "benefits": [
+      "Técnicos matriculados y certificados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas de seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "instalacion-artefactos",
+        "titulo": "Instalación de artefactos a gas",
+        "descripcion": "Instalación profesional y segura de cocinas, calefones, calefactores y otros artefactos a gas. Cumplimiento total de normas de seguridad.",
+        "icon": "🔥",
+        "image": {
+          "src": "/images/services/gas/ejemplo-artefactos.jpg",
+          "alt": "Instalación profesional de artefactos a gas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "reparacion-perdidas",
+        "titulo": "Reparación de pérdidas de gas",
+        "descripcion": "Detección y reparación inmediata de pérdidas internas. Diagnóstico con equipos especializados y solución garantizada para tu seguridad.",
+        "icon": "⚠️",
+        "image": {
+          "src": "/images/services/gas/ejemplo-perdidas.jpg",
+          "alt": "Detección y reparación de pérdidas de gas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "extension-cañerias",
+        "titulo": "Extensión y renovación de cañerías",
+        "descripcion": "Extensión de instalaciones de gas para nuevos ambientes. Renovación completa de cañerías antiguas con materiales certificados.",
+        "icon": "🔧",
+        "image": {
+          "src": "/images/services/gas/ejemplo-cañerias.jpg",
+          "alt": "Extensión de cañerías de gas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "instalacion-calentadores",
+        "titulo": "Instalación de calefactores",
+        "descripcion": "Instalación profesional de calefactores a gas para calefacción. Conexión segura, reguladores y ventilación adecuada.",
+        "icon": "🌡️",
+        "image": {
+          "src": "/images/services/gas/ejemplo-calentadores.jpg",
+          "alt": "Instalación de calefactores a gas",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos matriculados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y certificación",
+        "descripcion": "Prueba final, entrega de certificación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/gas/gallery-1.jpg", "alt": "Instalación de artefactos a gas", "caption": "Instalación profesional", "order": 1 },
+      { "src": "/images/services/gas/gallery-2.jpg", "alt": "Reparación de cañerías de gas", "caption": "Reparación segura", "order": 2 },
+      { "src": "/images/services/gas/gallery-3.jpg", "alt": "Calefactores instalados", "caption": "Calefacción a gas", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Están matriculados como gasistas?",
+        "a": "Sí. Trabajamos con gasistas matriculados según disponibilidad. Todos los trabajos cumplen con las normativas vigentes."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Hacen certificaciones de instalación?",
+        "a": "Sí. Emitimos certificaciones de instalación de gas según normativas vigentes."
+      },
+      {
+        "q": "¿Atienden emergencias de gas?",
+        "a": "Sí. Tenemos servicio de guardia para emergencias de gas con llamada previa."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Roberto M.",
+        "text": "Excelente trabajo. Instalaron el calefactor de forma profesional y dejaron todo certificado. Muy recomendable.",
+        "rating": 5,
+        "date": "2025-10-20"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": 4500,
+      "estimateSample": [
+        { "task": "Instalación de artefacto a gas", "priceFrom": 3500 },
+        { "task": "Reparación de pérdida simple", "priceFrom": 3000 },
+        { "task": "Extensión de cañería (por metro)", "priceFrom": 2500 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Matriculación como Gasista", "id": "MAT-GAS-12345" },
+        { "name": "Normas de seguridad aplicables", "reference": "Normativas ENARGAS" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Gasista en Zona Norte – Instalaciones y Reparaciones",
+        "description": "Gasista en Zona Norte. Instalación de artefactos a gas, reparaciones y certificaciones. Trabajos seguros y garantizados.",
+        "image": "/images/services/gas/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Gasista en Zona Norte",
+        "image": "/images/services/gas/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Gas", "url": "/servicios/gas" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Gas",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/gas"
+        },
+        "description": "Servicios de gas: instalación de artefactos, reparaciones, extensiones de cañerías y certificaciones para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Están matriculados como gasistas?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Trabajamos con gasistas matriculados según disponibilidad. Todos los trabajos cumplen con las normativas vigentes." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Pérdidas de gas, instalaciones antiguas, falta de certificación y artefactos sin instalar. Ofrecemos diagnóstico, presupuesto y soluciones seguras con certificación."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["gas", "gasista", "instalaciones gas", "zona norte", "servicios hogar", "gasista matriculado"],
+    "relatedServices": ["electricidad", "plomeria", "albanileria"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "albanileria",
+    "slug": "albanileria",
+    "title": "Albañilería en Zona Norte – Construcción y Refacciones",
+    "shortTitle": "Albañilería Zona Norte",
+    "meta": {
+      "title": "Albañil en Zona Norte – Profesionales Certificados | Construcción y Refacciones",
+      "description": "Albañil en Zona Norte. Soluciones rápidas y garantizadas en hogares. Construcción y reparación de paredes, durlock, revoques, refacción de baños y cocinas y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "albañil zona norte, albañil pilar, albañil san isidro, construcción zona norte, refacciones zona norte, durlock zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/albanileria",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/albanileria",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🧱",
+    "serviceName": "Albañil",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Albañilería que Ofrecemos",
+        "description": "Como albañil en Zona Norte, cubrimos todas las necesidades de construcción y refacciones de tu hogar, desde paredes hasta refacciones completas."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu albañil en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como albañiles en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Albañil en todas las localidades de Zona Norte",
+        "description": "Atendemos como albañiles en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un albañil en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Albañil en Zona Norte – Técnicos Expertos en Construcción y Refacciones",
+      "subtitle": "Construcción y reparación de paredes, durlock, revoques, refacción de baños y cocinas. Trabajos garantizados y materiales de primera.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-albañileria-jose-c-paz.png",
+        "alt": "Albañil profesional trabajando en construcción, herramientas y materiales",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional bricklayer working on construction, tools and materials, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Construcción y reparación de paredes",
+      "Colocación de durlock (tabiques, cielorrasos)",
+      "Revoques y enlucidos",
+      "Reparación de grietas y filtraciones",
+      "Hormigón para pequeñas estructuras (contrapisos, veredas internas)",
+      "Apertura y cierre de vanos",
+      "Bases para aires acondicionados",
+      "Refacción de baños y cocinas"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "refaccion-baños-cocinas",
+        "titulo": "Refacción completa de baños y cocinas",
+        "descripcion": "Renovación integral de baños y cocinas. Construcción, revoques, instalaciones y terminaciones profesionales.",
+        "icon": "🏠",
+        "image": {
+          "src": "/images/services/albanileria/ejemplo-refaccion.jpg",
+          "alt": "Refacción completa de baño y cocina",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "construccion-paredes",
+        "titulo": "Construcción y reparación de paredes",
+        "descripcion": "Construcción de nuevas paredes, reparación de muros dañados y refuerzos estructurales. Trabajos en ladrillo y durlock.",
+        "icon": "🧱",
+        "image": {
+          "src": "/images/services/albanileria/ejemplo-paredes.jpg",
+          "alt": "Construcción y reparación de paredes",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "durlock-cielorrasos",
+        "titulo": "Durlock y cielorrasos",
+        "descripcion": "Instalación profesional de tabiques y cielorrasos en durlock. Soluciones modernas y rápidas para dividir ambientes.",
+        "icon": "📐",
+        "image": {
+          "src": "/images/services/albanileria/ejemplo-durlock.jpg",
+          "alt": "Instalación de durlock y cielorrasos",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "revoques-filtraciones",
+        "titulo": "Revoques y reparación de filtraciones",
+        "descripcion": "Revoques interiores y exteriores, reparación de grietas y soluciones definitivas para filtraciones de agua.",
+        "icon": "🔨",
+        "image": {
+          "src": "/images/services/albanileria/ejemplo-revoques.jpg",
+          "alt": "Revoques y reparación de filtraciones",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/albanileria/gallery-1.jpg", "alt": "Construcción de paredes", "caption": "Construcción profesional", "order": 1 },
+      { "src": "/images/services/albanileria/gallery-2.jpg", "alt": "Instalación de durlock", "caption": "Durlock y tabiques", "order": 2 },
+      { "src": "/images/services/albanileria/gallery-3.jpg", "alt": "Refacción de baño", "caption": "Refacciones completas", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Hacen obras grandes o solo refacciones?",
+        "a": "Nos especializamos en refacciones y trabajos para hogares particulares. No realizamos obras grandes ni construcciones desde cero."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Trabajan con materiales propios o del cliente?",
+        "a": "Preferimos proveer materiales certificados; si el cliente aporta materiales, se revisan antes de la instalación."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ana L.",
+        "text": "Refaccionaron mi baño completo y quedó excelente. Muy profesionales y limpios en el trabajo.",
+        "rating": 5,
+        "date": "2025-09-25"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Construcción de pared (por m²)", "priceFrom": 15000 },
+        { "task": "Instalación de durlock (por m²)", "priceFrom": 8000 },
+        { "task": "Revoque interior (por m²)", "priceFrom": 5000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Técnicos especializados en construcción", "id": "TEC-ALB-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Albañil en Zona Norte – Construcción y Refacciones",
+        "description": "Albañil en Zona Norte. Construcción, durlock, revoques y refacciones. Trabajos garantizados y profesionales.",
+        "image": "/images/services/albanileria/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Albañil en Zona Norte",
+        "image": "/images/services/albanileria/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Albañilería", "url": "/servicios/albanileria" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Albañilería",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/albanileria"
+        },
+        "description": "Servicios de albañilería: construcción, reparación de paredes, durlock, revoques y refacciones para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Hacen obras grandes o solo refacciones?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nos especializamos en refacciones y trabajos para hogares particulares. No realizamos obras grandes ni construcciones desde cero." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Paredes dañadas, filtraciones, espacios a dividir y refacciones necesarias. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con materiales de calidad."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["albanileria", "albañil", "construccion", "durlock", "zona norte", "servicios hogar", "refacciones"],
+    "relatedServices": ["electricidad", "plomeria", "pintura"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "pintura",
+    "slug": "pintura",
+    "title": "Pintura en Zona Norte – Interior y Exterior",
+    "shortTitle": "Pintura Zona Norte",
+    "meta": {
+      "title": "Pintor en Zona Norte – Profesionales Certificados | Pintura Interior y Exterior",
+      "description": "Pintor en Zona Norte. Soluciones rápidas y garantizadas en hogares. Pintura interior, exterior, empastinado, tratamientos antihumedad, pintura de rejas y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "pintor zona norte, pintor pilar, pintor san isidro, pintura interior zona norte, pintura exterior zona norte, empastinado zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/pintura",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/pintura",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🎨",
+    "serviceName": "Pintor",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Pintura que Ofrecemos",
+        "description": "Como pintor en Zona Norte, cubrimos todas las necesidades de pintura de tu hogar, desde interior hasta exterior y tratamientos especiales."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu pintor en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como pintores en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Pintor en todas las localidades de Zona Norte",
+        "description": "Atendemos como pintores en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un pintor en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Pintor en Zona Norte – Técnicos Expertos en Pintura Interior y Exterior",
+      "subtitle": "Pintura interior, exterior, empastinado, tratamientos antihumedad y pintura de rejas. Trabajos garantizados y terminación de primera calidad.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-pintura-escobar.png",
+        "alt": "Pintor profesional trabajando, herramientas y pintura",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional painter working, paint tools and materials, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Pintura interior",
+      "Pintura exterior",
+      "Empastinado y preparación de superficies",
+      "Aplicación de selladores y fijadores",
+      "Tratamientos antihumedad",
+      "Pintura de rejas, portones y herrería",
+      "Pintura de techos y frentes"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "pintura-completa",
+        "titulo": "Pintura completa de vivienda",
+        "descripcion": "Pintura interior y exterior de toda la casa. Preparación profesional de superficies, empastinado y terminación de primera calidad.",
+        "icon": "🎨",
+        "image": {
+          "src": "/images/services/pintura/ejemplo-completo.jpg",
+          "alt": "Pintura completa de vivienda",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "tratamientos-antihumedad",
+        "titulo": "Tratamientos antihumedad",
+        "descripcion": "Solución definitiva para problemas de humedad. Aplicación de productos especiales y selladores para proteger tu hogar.",
+        "icon": "🛡️",
+        "image": {
+          "src": "/images/services/pintura/ejemplo-antihumedad.jpg",
+          "alt": "Tratamientos antihumedad",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "pintura-rejas",
+        "titulo": "Pintura de rejas y herrería",
+        "descripcion": "Pintura profesional de rejas, portones y estructuras metálicas. Preparación, tratamiento antióxido y terminación duradera.",
+        "icon": "🔩",
+        "image": {
+          "src": "/images/services/pintura/ejemplo-rejas.jpg",
+          "alt": "Pintura de rejas y herrería",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "empastinado",
+        "titulo": "Empastinado y preparación",
+        "descripcion": "Preparación profesional de paredes antes de pintar. Empastinado, lijado y aplicación de selladores para un acabado perfecto.",
+        "icon": "✨",
+        "image": {
+          "src": "/images/services/pintura/ejemplo-empastinado.jpg",
+          "alt": "Empastinado y preparación de superficies",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/pintura/gallery-1.jpg", "alt": "Pintura interior profesional", "caption": "Pintura interior", "order": 1 },
+      { "src": "/images/services/pintura/gallery-2.jpg", "alt": "Pintura exterior de fachada", "caption": "Pintura exterior", "order": 2 },
+      { "src": "/images/services/pintura/gallery-3.jpg", "alt": "Pintura de rejas y herrería", "caption": "Pintura de rejas", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué tipo de pintura usan?",
+        "a": "Trabajamos con pinturas de primera calidad según el tipo de superficie. Interior, exterior, antihumedad y especiales para metal."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Incluyen la preparación de superficies?",
+        "a": "Sí. La preparación profesional de superficies (empastinado, lijado, selladores) está incluida en nuestros trabajos."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Laura S.",
+        "text": "Pintaron toda mi casa y quedó hermosa. Muy profesionales y limpios en el trabajo.",
+        "rating": 5,
+        "date": "2025-09-18"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Pintura interior (por m²)", "priceFrom": 3500 },
+        { "task": "Pintura exterior (por m²)", "priceFrom": 4500 },
+        { "task": "Empastinado (por m²)", "priceFrom": 2500 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Técnicos especializados en pintura", "id": "TEC-PINT-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Pintor en Zona Norte – Pintura Interior y Exterior",
+        "description": "Pintor en Zona Norte. Pintura interior, exterior, empastinado y tratamientos. Trabajos garantizados y profesionales.",
+        "image": "/images/services/pintura/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Pintor en Zona Norte",
+        "image": "/images/services/pintura/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Pintura", "url": "/servicios/pintura" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Pintura",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/pintura"
+        },
+        "description": "Servicios de pintura: interior, exterior, empastinado, tratamientos antihumedad y pintura de rejas para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Qué tipo de pintura usan?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos con pinturas de primera calidad según el tipo de superficie. Interior, exterior, antihumedad y especiales para metal." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Paredes descascaradas, humedad, rejas oxidadas y necesidad de renovación. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con productos de calidad."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["pintura", "pintor", "pintura interior", "pintura exterior", "zona norte", "servicios hogar", "empastinado"],
+    "relatedServices": ["albanileria", "impermeabilizacion", "herrería"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "impermeabilizacion",
+    "slug": "impermeabilizacion",
+    "title": "Impermeabilización en Zona Norte – Techos y Terrazas",
+    "shortTitle": "Impermeabilización Zona Norte",
+    "meta": {
+      "title": "Impermeabilización en Zona Norte – Profesionales Certificados | Techos y Terrazas",
+      "description": "Impermeabilización en Zona Norte. Soluciones rápidas y garantizadas en hogares. Techos de losa y chapa, terrazas, balcones, muros exteriores, membranas y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "impermeabilización zona norte, impermeabilización pilar, impermeabilización san isidro, techos zona norte, terrazas zona norte, membranas zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/impermeabilizacion",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/impermeabilizacion",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🛡️",
+    "serviceName": "Especialista en Impermeabilización",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Impermeabilización que Ofrecemos",
+        "description": "Como especialista en impermeabilización en Zona Norte, cubrimos todas las necesidades de protección contra filtraciones de tu hogar."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu especialista en impermeabilización en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos en impermeabilización en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Impermeabilización en todas las localidades de Zona Norte",
+        "description": "Atendemos en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás impermeabilización en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Impermeabilización en Zona Norte – Técnicos Expertos en Techos y Terrazas",
+      "subtitle": "Techos de losa y chapa, terrazas, balcones, muros exteriores y membranas. Solución definitiva para filtraciones con garantía extendida.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-impermeabilizacion-zarate.png",
+        "alt": "Trabajo de impermeabilización en techos, membranas y protección",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional waterproofing work on roofs, membranes and protection, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Techos de losa",
+      "Techos de chapa",
+      "Muros exteriores",
+      "Terrazas y balcones",
+      "Sellado de juntas",
+      "Aplicación de membrana líquida/asfáltica"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (12-24 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "impermeabilizacion-losa",
+        "titulo": "Impermeabilización de techos de losa",
+        "descripcion": "Solución definitiva para filtraciones en techos de losa. Aplicación de membranas líquidas y asfálticas con garantía extendida.",
+        "icon": "🏠",
+        "image": {
+          "src": "/images/services/impermeabilizacion/ejemplo-losa.jpg",
+          "alt": "Impermeabilización de techos de losa",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "terrazas-balcones",
+        "titulo": "Impermeabilización de terrazas y balcones",
+        "descripcion": "Protección completa de terrazas y balcones. Sellado de juntas, aplicación de membranas y sistemas de drenaje.",
+        "icon": "🌊",
+        "image": {
+          "src": "/images/services/impermeabilizacion/ejemplo-terrazas.jpg",
+          "alt": "Impermeabilización de terrazas y balcones",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "reparacion-chapas",
+        "titulo": "Reparación de techos de chapa",
+        "descripcion": "Solución para filtraciones en techos de chapa. Sellado de juntas, reparación de piezas y aplicación de productos especiales.",
+        "icon": "🛡️",
+        "image": {
+          "src": "/images/services/impermeabilizacion/ejemplo-chapas.jpg",
+          "alt": "Reparación de techos de chapa",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "muros-juntas",
+        "titulo": "Muros exteriores y sellado de juntas",
+        "descripcion": "Protección de muros exteriores contra la humedad. Sellado profesional de juntas y aplicación de productos impermeabilizantes.",
+        "icon": "🧱",
+        "image": {
+          "src": "/images/services/impermeabilizacion/ejemplo-muros.jpg",
+          "alt": "Muros exteriores y sellado de juntas",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía extendida por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/impermeabilizacion/gallery-1.jpg", "alt": "Impermeabilización de techos", "caption": "Techos protegidos", "order": 1 },
+      { "src": "/images/services/impermeabilizacion/gallery-2.jpg", "alt": "Membranas aplicadas", "caption": "Membranas profesionales", "order": 2 },
+      { "src": "/images/services/impermeabilizacion/gallery-3.jpg", "alt": "Terrazas impermeabilizadas", "caption": "Terrazas protegidas", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto dura la impermeabilización?",
+        "a": "Depende del tipo de membrana y superficie. Ofrecemos garantías de 12 a 24 meses según el trabajo realizado."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita extendida entre 12 y 24 meses según el tipo de trabajo."
+      },
+      {
+        "q": "¿Trabajan en días de lluvia?",
+        "a": "La impermeabilización requiere condiciones climáticas adecuadas. Coordinamos el trabajo en días sin lluvia."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Pedro M.",
+        "text": "Solucionaron definitivamente las filtraciones de mi terraza. Excelente trabajo y muy profesional.",
+        "rating": 5,
+        "date": "2025-10-05"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Impermeabilización de losa (por m²)", "priceFrom": 12000 },
+        { "task": "Impermeabilización de terraza (por m²)", "priceFrom": 10000 },
+        { "task": "Sellado de juntas (por metro)", "priceFrom": 3000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 24,
+      "certifications": [
+        { "name": "Técnicos especializados en impermeabilización", "id": "TEC-IMP-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Impermeabilización en Zona Norte – Techos y Terrazas",
+        "description": "Impermeabilización en Zona Norte. Techos, terrazas y membranas. Soluciones definitivas con garantía extendida.",
+        "image": "/images/services/impermeabilizacion/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Impermeabilización en Zona Norte",
+        "image": "/images/services/impermeabilizacion/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Impermeabilización", "url": "/servicios/impermeabilizacion" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Impermeabilización",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/impermeabilizacion"
+        },
+        "description": "Servicios de impermeabilización: techos, terrazas, balcones y muros para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto dura la impermeabilización?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Depende del tipo de membrana y superficie. Ofrecemos garantías de 12 a 24 meses según el trabajo realizado." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Filtraciones en techos, terrazas con humedad, juntas sin sellar y muros húmedos. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con garantía extendida."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["impermeabilizacion", "techos", "terrazas", "membranas", "zona norte", "servicios hogar"],
+    "relatedServices": ["techos", "albanileria"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "carpinteria",
+    "slug": "carpinteria",
+    "title": "Carpintería de Madera en Zona Norte – Muebles y Reparaciones",
+    "shortTitle": "Carpintería Zona Norte",
+    "meta": {
+      "title": "Carpintero en Zona Norte – Profesionales Certificados | Muebles y Reparaciones",
+      "description": "Carpintero en Zona Norte. Soluciones rápidas y garantizadas en hogares. Muebles a medida, reparación de puertas y ventanas, zócalos, armado de muebles y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "carpintero zona norte, carpintero pilar, carpintero san isidro, muebles a medida zona norte, carpinteria madera zona norte, reparacion puertas zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/carpinteria",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/carpinteria",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🪵",
+    "serviceName": "Carpintero",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Carpintería que Ofrecemos",
+        "description": "Como carpintero en Zona Norte, cubrimos todas las necesidades de carpintería de tu hogar, desde muebles a medida hasta reparaciones."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu carpintero en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como carpinteros en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Carpintero en todas las localidades de Zona Norte",
+        "description": "Atendemos como carpinteros en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un carpintero en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Carpintero en Zona Norte – Técnicos Expertos en Muebles y Reparaciones",
+      "subtitle": "Muebles a medida, reparación de puertas y ventanas, zócalos y armado de muebles. Trabajos garantizados y terminación de primera calidad.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-carpinteria-vicente-lopez.png",
+        "alt": "Carpintero profesional trabajando con madera, herramientas y muebles",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional carpenter working with wood, tools and furniture, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Muebles a medida sencillos",
+      "Reparación de puertas y ventanas",
+      "Colocación de puertas interiores",
+      "Colocación de zócalos",
+      "Armado de muebles prefabricados",
+      "Decks pequeños y reparaciones"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "muebles-medida",
+        "titulo": "Muebles a medida sencillos",
+        "descripcion": "Diseño y fabricación de muebles a medida para tu hogar. Estanterías, mesas, repisas y más, adaptados a tus espacios.",
+        "icon": "🪵",
+        "image": {
+          "src": "/images/services/carpinteria/ejemplo-muebles.jpg",
+          "alt": "Muebles a medida de carpintería",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "reparacion-puertas",
+        "titulo": "Reparación de puertas y ventanas",
+        "descripcion": "Reparación profesional de puertas y ventanas de madera. Ajustes, cambio de bisagras, reparación de marcos y más.",
+        "icon": "🚪",
+        "image": {
+          "src": "/images/services/carpinteria/ejemplo-puertas.jpg",
+          "alt": "Reparación de puertas y ventanas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "zocalos-terminaciones",
+        "titulo": "Colocación de zócalos y terminaciones",
+        "descripcion": "Instalación profesional de zócalos de madera. Terminaciones perfectas que dan el toque final a tus ambientes.",
+        "icon": "📐",
+        "image": {
+          "src": "/images/services/carpinteria/ejemplo-zocalos.jpg",
+          "alt": "Colocación de zócalos",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "armado-muebles",
+        "titulo": "Armado de muebles y decks",
+        "descripcion": "Armado profesional de muebles prefabricados y construcción de decks pequeños. Trabajos rápidos y de calidad.",
+        "icon": "🪑",
+        "image": {
+          "src": "/images/services/carpinteria/ejemplo-decks.jpg",
+          "alt": "Armado de muebles y decks",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/carpinteria/gallery-1.jpg", "alt": "Muebles a medida", "caption": "Muebles personalizados", "order": 1 },
+      { "src": "/images/services/carpinteria/gallery-2.jpg", "alt": "Reparación de puertas", "caption": "Reparaciones profesionales", "order": 2 },
+      { "src": "/images/services/carpinteria/gallery-3.jpg", "alt": "Zócalos instalados", "caption": "Terminaciones perfectas", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Hacen muebles complejos o solo sencillos?",
+        "a": "Nos especializamos en muebles sencillos y trabajos de carpintería para el hogar. No realizamos muebles complejos ni ebanistería fina."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Trabajan con maderas del cliente?",
+        "a": "Preferimos proveer maderas certificadas; si el cliente aporta materiales, se revisan antes del trabajo."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Sofía H.",
+        "text": "Hicieron unos muebles a medida para mi cocina y quedaron perfectos. Muy profesionales.",
+        "rating": 5,
+        "date": "2025-09-28"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Reparación de puerta (por unidad)", "priceFrom": 5000 },
+        { "task": "Mueble a medida sencillo", "priceFrom": 15000 },
+        { "task": "Colocación de zócalos (por metro)", "priceFrom": 2000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Técnicos especializados en carpintería", "id": "TEC-CARP-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Carpintero en Zona Norte – Muebles y Reparaciones",
+        "description": "Carpintero en Zona Norte. Muebles a medida, reparaciones y terminaciones. Trabajos garantizados y profesionales.",
+        "image": "/images/services/carpinteria/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Carpintero en Zona Norte",
+        "image": "/images/services/carpinteria/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Carpintería", "url": "/servicios/carpinteria" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Carpintería",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/carpinteria"
+        },
+        "description": "Servicios de carpintería: muebles a medida, reparación de puertas y ventanas, zócalos y armado de muebles para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Hacen muebles complejos o solo sencillos?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nos especializamos en muebles sencillos y trabajos de carpintería para el hogar. No realizamos muebles complejos ni ebanistería fina." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Puertas que no cierran, muebles rotos, falta de zócalos y necesidad de muebles a medida. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con maderas de calidad."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["carpinteria", "carpintero", "muebles a medida", "zona norte", "servicios hogar", "reparacion puertas"],
+    "relatedServices": ["albanileria", "pintura", "herrería"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "herrería",
+    "slug": "herrería",
+    "title": "Herrería para el Hogar en Zona Norte – Rejas y Portones",
+    "shortTitle": "Herrería Zona Norte",
+    "meta": {
+      "title": "Herrería para el Hogar en Zona Norte – Profesionales Certificados | Rejas y Portones",
+      "description": "Herrería para el hogar en Zona Norte. Soluciones rápidas y garantizadas. Soldaduras, reparación de rejas y portones, estructuras livianas, rejas de seguridad y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "herrería hogar zona norte, herrería pilar, herrería san isidro, reparacion rejas zona norte, portones zona norte, rejas seguridad zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/herrería",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/herrería",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "⚒️",
+    "serviceName": "Herrero",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Herrería que Ofrecemos",
+        "description": "Como herrero en Zona Norte, cubrimos todas las necesidades de herrería de tu hogar, desde reparaciones hasta estructuras nuevas."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu herrero en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos como herreros en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Herrero en todas las localidades de Zona Norte",
+        "description": "Atendemos como herreros en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás un herrero en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Herrería para el Hogar en Zona Norte – Técnicos Expertos en Rejas y Portones",
+      "subtitle": "Soldaduras, reparación de rejas y portones, estructuras livianas y rejas de seguridad. Trabajos garantizados y de primera calidad.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-herreria-san-fernando.png",
+        "alt": "Herrero profesional trabajando en rejas y estructuras metálicas",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional blacksmith working on metal gates and structures, welding equipment, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Soldaduras en el hogar",
+      "Reparación de rejas y portones",
+      "Fabricación de estructuras livianas",
+      "Refuerzo de marcos",
+      "Colocación de rejas de seguridad"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "reparacion-rejas",
+        "titulo": "Reparación de rejas y portones",
+        "descripcion": "Reparación profesional de rejas y portones de tu hogar. Soldaduras, ajustes, cambio de bisagras y refuerzos estructurales.",
+        "icon": "🔩",
+        "image": {
+          "src": "/images/services/herrería/ejemplo-rejas.jpg",
+          "alt": "Reparación de rejas y portones",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "rejas-seguridad",
+        "titulo": "Rejas de seguridad",
+        "descripcion": "Instalación de rejas de seguridad para ventanas y puertas. Estructuras livianas y resistentes para proteger tu hogar.",
+        "icon": "🛡️",
+        "image": {
+          "src": "/images/services/herrería/ejemplo-seguridad.jpg",
+          "alt": "Rejas de seguridad instaladas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "soldaduras",
+        "titulo": "Soldaduras y reparaciones",
+        "descripcion": "Soldaduras profesionales para trabajos del hogar. Reparación de estructuras metálicas, refuerzos y uniones seguras.",
+        "icon": "⚒️",
+        "image": {
+          "src": "/images/services/herrería/ejemplo-soldaduras.jpg",
+          "alt": "Soldaduras profesionales",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "estructuras-livianas",
+        "titulo": "Estructuras livianas y refuerzos",
+        "descripcion": "Fabricación de estructuras livianas para el hogar. Refuerzo de marcos, soportes y elementos metálicos decorativos.",
+        "icon": "🏗️",
+        "image": {
+          "src": "/images/services/herrería/ejemplo-estructuras.jpg",
+          "alt": "Estructuras livianas y refuerzos",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/herrería/gallery-1.jpg", "alt": "Rejas de seguridad", "caption": "Rejas profesionales", "order": 1 },
+      { "src": "/images/services/herrería/gallery-2.jpg", "alt": "Reparación de portones", "caption": "Reparaciones garantizadas", "order": 2 },
+      { "src": "/images/services/herrería/gallery-3.jpg", "alt": "Soldaduras profesionales", "caption": "Trabajos de calidad", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Hacen rejas nuevas o solo reparaciones?",
+        "a": "Hacemos ambos. Reparaciones de rejas existentes y fabricación de estructuras livianas y rejas de seguridad."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Pintan las rejas después de repararlas?",
+        "a": "Ofrecemos servicio de pintura de rejas como trabajo complementario. Consultá en el presupuesto."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Marcos T.",
+        "text": "Repararon mi portón y quedó como nuevo. Muy profesionales y el trabajo quedó perfecto.",
+        "rating": 5,
+        "date": "2025-10-08"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Reparación de reja (por metro)", "priceFrom": 4000 },
+        { "task": "Soldadura simple", "priceFrom": 3000 },
+        { "task": "Reja de seguridad (por unidad)", "priceFrom": 15000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Técnicos especializados en herrería", "id": "TEC-HERR-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Herrería para el Hogar en Zona Norte – Rejas y Portones",
+        "description": "Herrería en Zona Norte. Rejas, portones y soldaduras. Trabajos garantizados y profesionales.",
+        "image": "/images/services/herrería/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Herrería en Zona Norte",
+        "image": "/images/services/herrería/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Herrería", "url": "/servicios/herrería" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Herrería",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/herrería"
+        },
+        "description": "Servicios de herrería: reparación de rejas y portones, soldaduras, estructuras livianas y rejas de seguridad para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Hacen rejas nuevas o solo reparaciones?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hacemos ambos. Reparaciones de rejas existentes y fabricación de estructuras livianas y rejas de seguridad." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Rejas oxidadas, portones que no cierran, estructuras débiles y necesidad de seguridad. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con materiales de calidad."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["herrería", "herrero", "rejas", "portones", "soldaduras", "zona norte", "servicios hogar"],
+    "relatedServices": ["pintura", "techos"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "techos",
+    "slug": "techos",
+    "title": "Reparación de Techos y Zinguería en Zona Norte – Chapas, Canaletas y Aislaciones",
+    "shortTitle": "Techos y Zinguería Zona Norte",
+    "meta": {
+      "title": "Reparación de Techos y Zinguería en Zona Norte – Profesionales Certificados | Chapas, Canaletas y Aislaciones",
+      "description": "Reparación de techos y zinguería en Zona Norte. Soluciones rápidas y garantizadas en hogares. Reparación de techos de chapa, colocación de chapas nuevas, canaletas, bajadas, babeta, cumbreras, aislaciones térmicas y acústicas, filtraciones y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "reparacion techos zona norte, techos chapa zona norte, zingueria zona norte, canaletas zona norte, techos pilar, techos san isidro, aislacion techos zona norte, mantenimiento techos zona norte, zinguero zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/techos",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/techos",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🏠",
+    "serviceName": "Especialista en Techos y Zinguería",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Techos y Zinguería que Ofrecemos",
+        "description": "Como especialista en techos y zinguería en Zona Norte, cubrimos todas las necesidades de reparación, mantenimiento y canaletas de tu hogar."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu especialista en techos en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos en reparación de techos en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Reparación de techos y zinguería en todas las localidades de Zona Norte",
+        "description": "Atendemos en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás reparar tu techo o instalar canaletas en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Reparación de Techos y Zinguería en Zona Norte – Técnicos Expertos en Chapas, Canaletas y Aislaciones",
+      "subtitle": "Reparación de techos de chapa, colocación de chapas nuevas, canaletas, bajadas, babeta, cumbreras, aislaciones térmicas y acústicas. Solución definitiva para filtraciones y mantenimiento anual.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-zingueria-vicente-lopez.png",
+        "alt": "Trabajo de reparación de techos de chapa, canaletas, aislaciones y mantenimiento",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional roof repair work on metal roofs, gutters installation, insulation and maintenance, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Reparación de techos de chapa",
+      "Colocación de chapas nuevas",
+      "Instalación de canaletas y bajadas",
+      "Babeta y cumbreras",
+      "Aislaciones térmicas y acústicas",
+      "Reparación de filtraciones",
+      "Reemplazo de piezas oxidadas",
+      "Alineación y fijación",
+      "Revisiones y mantenimiento anual"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (12-24 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "canaletas-bajadas",
+        "titulo": "Instalación de canaletas y bajadas",
+        "descripcion": "Instalación completa de sistema de canaletas y bajadas pluviales. Solución profesional para el desagüe de agua de lluvia.",
+        "icon": "🌧️",
+        "image": {
+          "src": "/images/services/zingueria/ejemplo-canaletas.jpg",
+          "alt": "Instalación de canaletas y bajadas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "reparacion-completa",
+        "titulo": "Reparación completa de techos de chapa",
+        "descripcion": "Solución definitiva para techos de chapa dañados. Reparación de piezas, sellado de juntas y reemplazo de chapas oxidadas.",
+        "icon": "🏠",
+        "image": {
+          "src": "/images/services/techos/ejemplo-reparacion.jpg",
+          "alt": "Reparación completa de techos de chapa",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "babeta-cumbreras",
+        "titulo": "Babeta y cumbreras",
+        "descripcion": "Instalación y reparación de babeta y cumbreras. Protección completa de los puntos críticos del techo de chapa.",
+        "icon": "🔧",
+        "image": {
+          "src": "/images/services/zingueria/ejemplo-babeta.jpg",
+          "alt": "Babeta y cumbreras",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "aislaciones",
+        "titulo": "Aislaciones térmicas y acústicas",
+        "descripcion": "Instalación de aislaciones para mejorar el confort de tu hogar. Reducción de temperatura y ruido con materiales de primera.",
+        "icon": "🌡️",
+        "image": {
+          "src": "/images/services/techos/ejemplo-aislaciones.jpg",
+          "alt": "Aislaciones térmicas y acústicas",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía extendida por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/techos/gallery-1.jpg", "alt": "Reparación de techos de chapa", "caption": "Reparaciones profesionales", "order": 1 },
+      { "src": "/images/services/techos/gallery-2.jpg", "alt": "Colocación de chapas nuevas", "caption": "Instalación completa", "order": 2 },
+      { "src": "/images/services/techos/gallery-3.jpg", "alt": "Aislaciones instaladas", "caption": "Aislaciones de calidad", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuánto dura un techo de chapa reparado?",
+        "a": "Con el mantenimiento adecuado, un techo de chapa reparado puede durar muchos años. Ofrecemos garantías de 12 a 24 meses."
+      },
+      {
+        "q": "¿Qué materiales usan para canaletas?",
+        "a": "Trabajamos con canaletas de chapa galvanizada y PVC según el tipo de techo y necesidades del cliente."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita extendida entre 12 y 24 meses según el tipo de trabajo."
+      },
+      {
+        "q": "¿Reparan filtraciones urgentes?",
+        "a": "Sí. Atendemos emergencias de filtraciones en techos de chapa con llamada previa."
+      },
+      {
+        "q": "¿Hacen mantenimiento preventivo?",
+        "a": "Sí. Ofrecemos servicio de mantenimiento preventivo anual para detectar problemas antes de que se agraven."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Elena R.",
+        "text": "Repararon completamente mi techo de chapa y colocaron aislación. Ahora la casa está mucho más cómoda.",
+        "rating": 5,
+        "date": "2025-10-22"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": 5000,
+      "estimateSample": [
+        { "task": "Reparación de filtración simple", "priceFrom": 4000 },
+        { "task": "Instalación de canaletas (por metro)", "priceFrom": 3500 },
+        { "task": "Colocación de chapa nueva (por m²)", "priceFrom": 8000 },
+        { "task": "Aislación térmica (por m²)", "priceFrom": 6000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+      "warrantyAndCertifications": {
+      "warrantyMonths": 24,
+      "certifications": [
+        { "name": "Técnicos especializados en techos y zinguería", "id": "TEC-TECH-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Reparación de Techos y Zinguería en Zona Norte – Chapas, Canaletas y Aislaciones",
+        "description": "Reparación de techos y zinguería en Zona Norte. Chapas, canaletas, aislaciones y mantenimiento. Soluciones definitivas con garantía extendida.",
+        "image": "/images/services/techos/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Reparación de Techos y Zinguería en Zona Norte",
+        "image": "/images/services/techos/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Techos y Zinguería", "url": "/servicios/techos" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Techos y Zinguería",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/techos"
+        },
+        "description": "Servicios de reparación de techos y zinguería: chapas, canaletas, bajadas, aislaciones y mantenimiento para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto dura un techo de chapa reparado?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Con el mantenimiento adecuado, un techo de chapa reparado puede durar muchos años. Ofrecemos garantías de 12 a 24 meses." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Filtraciones en techos, chapas oxidadas, falta de canaletas, piezas dañadas, agua que no se desagua correctamente y necesidad de mantenimiento. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con garantía extendida."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["techos", "chapas", "zingueria", "canaletas", "aislaciones", "mantenimiento techos", "zona norte", "servicios hogar"],
+    "relatedServices": ["impermeabilizacion", "albanileria", "herrería"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "revestimientos-pisos",
+    "slug": "revestimientos-pisos",
+    "title": "Revestimientos y Pisos en Zona Norte – Cerámicos y Porcelanatos",
+    "shortTitle": "Revestimientos Zona Norte",
+    "meta": {
+      "title": "Revestimientos y Pisos en Zona Norte – Profesionales Certificados | Cerámicos y Porcelanatos",
+      "description": "Revestimientos y pisos en Zona Norte. Soluciones rápidas y garantizadas en hogares. Colocación de cerámicos, porcelanatos, pisos flotantes, vinílicos, revestimientos de baños y cocinas y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "revestimientos zona norte, pisos zona norte, ceramicos zona norte, porcelanatos zona norte, pisos flotantes zona norte, revestimientos pilar",
+      "canonical": "https://servicioszonanorte.com/servicios/revestimientos-pisos",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/revestimientos-pisos",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🔲",
+    "serviceName": "Especialista en Revestimientos",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Revestimientos y Pisos que Ofrecemos",
+        "description": "Como especialista en revestimientos en Zona Norte, cubrimos todas las necesidades de pisos y revestimientos de tu hogar."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu especialista en revestimientos en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos en revestimientos y pisos en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Revestimientos y pisos en todas las localidades de Zona Norte",
+        "description": "Atendemos en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás revestimientos o pisos en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Revestimientos y Pisos en Zona Norte – Técnicos Expertos en Cerámicos y Porcelanatos",
+      "subtitle": "Colocación de cerámicos, porcelanatos, pisos flotantes, vinílicos y revestimientos de baños y cocinas. Trabajos garantizados y terminación perfecta.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-colocacion-piso-san-isidro.png",
+        "alt": "Profesional colocando revestimientos y pisos, cerámicos y porcelanatos",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional tile and floor installation, ceramics and porcelain tiles, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Colocación de cerámicos",
+      "Porcelanatos",
+      "Revestimientos de baños y cocinas",
+      "Pisos flotantes",
+      "Pisos vinílicos",
+      "Nivelación de superficies"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "revestimientos-baños",
+        "titulo": "Revestimientos de baños y cocinas",
+        "descripcion": "Colocación profesional de cerámicos y porcelanatos en baños y cocinas. Terminaciones perfectas y resistentes a la humedad.",
+        "icon": "🚿",
+        "image": {
+          "src": "/images/services/revestimientos/ejemplo-baños.jpg",
+          "alt": "Revestimientos de baños y cocinas",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "pisos-flotantes",
+        "titulo": "Pisos flotantes y vinílicos",
+        "descripcion": "Instalación de pisos flotantes y vinílicos modernos. Soluciones rápidas, duraderas y de fácil mantenimiento.",
+        "icon": "🏠",
+        "image": {
+          "src": "/images/services/revestimientos/ejemplo-flotantes.jpg",
+          "alt": "Pisos flotantes y vinílicos",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "porcelanatos-ceramicos",
+        "titulo": "Porcelanatos y cerámicos",
+        "descripcion": "Colocación profesional de porcelanatos y cerámicos de alta calidad. Nivelación perfecta y terminaciones impecables.",
+        "icon": "🔲",
+        "image": {
+          "src": "/images/services/revestimientos/ejemplo-porcelanatos.jpg",
+          "alt": "Porcelanatos y cerámicos",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "nivelacion",
+        "titulo": "Nivelación de superficies",
+        "descripcion": "Preparación profesional de superficies antes de colocar revestimientos. Nivelación perfecta para un acabado de calidad.",
+        "icon": "📐",
+        "image": {
+          "src": "/images/services/revestimientos/ejemplo-nivelacion.jpg",
+          "alt": "Nivelación de superficies",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Control final de calidad, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/revestimientos/gallery-1.jpg", "alt": "Revestimientos de baño", "caption": "Baños profesionales", "order": 1 },
+      { "src": "/images/services/revestimientos/gallery-2.jpg", "alt": "Pisos flotantes instalados", "caption": "Pisos modernos", "order": 2 },
+      { "src": "/images/services/revestimientos/gallery-3.jpg", "alt": "Porcelanatos colocados", "caption": "Terminaciones perfectas", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué tipo de pisos instalan?",
+        "a": "Instalamos cerámicos, porcelanatos, pisos flotantes, vinílicos y otros revestimientos según las necesidades del cliente."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Incluyen la nivelación de superficies?",
+        "a": "Sí. La nivelación y preparación de superficies está incluida en nuestros trabajos para garantizar un acabado perfecto."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Gabriel N.",
+        "text": "Colocaron porcelanatos en mi baño y quedó excelente. Muy profesionales y el trabajo quedó perfecto.",
+        "rating": 5,
+        "date": "2025-10-18"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Colocación de cerámico (por m²)", "priceFrom": 12000 },
+        { "task": "Colocación de porcelanato (por m²)", "priceFrom": 15000 },
+        { "task": "Instalación de piso flotante (por m²)", "priceFrom": 8000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Técnicos especializados en revestimientos", "id": "TEC-REV-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Revestimientos y Pisos en Zona Norte – Cerámicos y Porcelanatos",
+        "description": "Revestimientos y pisos en Zona Norte. Cerámicos, porcelanatos y pisos flotantes. Trabajos garantizados y profesionales.",
+        "image": "/images/services/revestimientos/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Revestimientos y Pisos en Zona Norte",
+        "image": "/images/services/revestimientos/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Revestimientos y pisos", "url": "/servicios/revestimientos-pisos" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Revestimientos y Pisos",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/revestimientos-pisos"
+        },
+        "description": "Servicios de revestimientos y pisos: cerámicos, porcelanatos, pisos flotantes y vinílicos para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Qué tipo de pisos instalan?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Instalamos cerámicos, porcelanatos, pisos flotantes, vinílicos y otros revestimientos según las necesidades del cliente." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Pisos desnivelados, revestimientos rotos, necesidad de renovación y falta de terminaciones. Ofrecemos diagnóstico, presupuesto y soluciones definitivas con materiales de calidad."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["revestimientos", "pisos", "ceramicos", "porcelanatos", "pisos flotantes", "zona norte", "servicios hogar"],
+    "relatedServices": ["albanileria", "pintura", "carpinteria"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "aire-acondicionado",
+    "slug": "aire-acondicionado",
+    "title": "Aire Acondicionado en Zona Norte – Instalación y Mantenimiento",
+    "shortTitle": "Aire Acondicionado Zona Norte",
+    "meta": {
+      "title": "Instalación de Aire Acondicionado en Zona Norte – Profesionales Certificados | Split y Mantenimiento",
+      "description": "Instalación de aire acondicionado en Zona Norte. Soluciones rápidas y garantizadas en hogares. Instalación split, mantenimiento preventivo, recarga de gas, limpieza profunda y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "aire acondicionado zona norte, instalacion aire acondicionado pilar, aire acondicionado san isidro, split zona norte, recarga gas aire acondicionado zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/aire-acondicionado",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/aire-acondicionado",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "❄️",
+    "serviceName": "Técnico en Aire Acondicionado",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Aire Acondicionado que Ofrecemos",
+        "description": "Como técnico en aire acondicionado en Zona Norte, cubrimos todas las necesidades de instalación y mantenimiento de tu hogar."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos como tu técnico en aire acondicionado en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de proyectos típicos que realizamos en aire acondicionado en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Aire acondicionado en todas las localidades de Zona Norte",
+        "description": "Atendemos en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás instalar o reparar tu aire acondicionado en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Aire Acondicionado en Zona Norte – Técnicos Expertos en Instalación y Mantenimiento",
+      "subtitle": "Instalación split, mantenimiento preventivo, recarga de gas, limpieza profunda y reubicación. Trabajos garantizados y servicio completo.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/servicio-aire-acondicionado-tigre.png",
+        "alt": "Técnico instalando aire acondicionado split, trabajo profesional",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional air conditioning installation, split unit, technician working, clean workspace, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(10,42,67,0.6) 0%, rgba(10,42,67,0.6) 100%)",
+        "tailwindClasses": "bg-primary-900 text-white"
+      }
+    },
+    "servicesIncluded": [
+      "Instalación split",
+      "Mantenimiento preventivo",
+      "Recarga de gas",
+      "Limpieza profunda",
+      "Reubicación de equipos"
+    ],
+    "benefits": [
+      "Técnicos especializados",
+      "Diagnóstico en el día",
+      "Presupuesto transparente y por escrito",
+      "Trabajos garantizados (6-12 meses según tipo)",
+      "Materiales certificados y factura",
+      "Cumplimiento de normas y seguridad"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "instalacion-split",
+        "titulo": "Instalación de split",
+        "descripcion": "Instalación profesional de equipos split. Conexión eléctrica, drenaje, soportes y configuración completa del sistema.",
+        "icon": "❄️",
+        "image": {
+          "src": "/images/services/aire-acondicionado/ejemplo-instalacion.jpg",
+          "alt": "Instalación de split profesional",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "mantenimiento-preventivo",
+        "titulo": "Mantenimiento preventivo",
+        "descripcion": "Mantenimiento periódico para mantener tu aire acondicionado funcionando perfectamente. Limpieza, revisión y ajustes.",
+        "icon": "🔧",
+        "image": {
+          "src": "/images/services/aire-acondicionado/ejemplo-mantenimiento.jpg",
+          "alt": "Mantenimiento preventivo de aire acondicionado",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "recarga-gas",
+        "titulo": "Recarga de gas y reparaciones",
+        "descripcion": "Recarga de gas refrigerante y reparación de fallas. Diagnóstico profesional y solución garantizada.",
+        "icon": "⚡",
+        "image": {
+          "src": "/images/services/aire-acondicionado/ejemplo-recarga.jpg",
+          "alt": "Recarga de gas refrigerante",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "limpieza-reubicacion",
+        "titulo": "Limpieza profunda y reubicación",
+        "descripcion": "Limpieza profunda de equipos y reubicación de aires acondicionados. Servicio completo y profesional.",
+        "icon": "🧹",
+        "image": {
+          "src": "/images/services/aire-acondicionado/ejemplo-limpieza.jpg",
+          "alt": "Limpieza profunda y reubicación",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección in situ, diagnóstico y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Trabajo por técnicos certificados con control de calidad durante la obra.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega y garantía",
+        "descripcion": "Prueba final del equipo, entrega de documentación y garantía por escrito.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/aire-acondicionado/gallery-1.jpg", "alt": "Instalación de split", "caption": "Instalación profesional", "order": 1 },
+      { "src": "/images/services/aire-acondicionado/gallery-2.jpg", "alt": "Mantenimiento de equipos", "caption": "Mantenimiento completo", "order": 2 },
+      { "src": "/images/services/aire-acondicionado/gallery-3.jpg", "alt": "Limpieza profunda", "caption": "Limpieza profesional", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Instalan cualquier marca de aire acondicionado?",
+        "a": "Sí. Instalamos equipos de todas las marcas. Trabajamos con el equipo que el cliente elija."
+      },
+      {
+        "q": "¿Dan garantía escrita?",
+        "a": "Sí. Entregamos garantía escrita entre 6 y 12 meses según el tipo de trabajo realizado."
+      },
+      {
+        "q": "¿Hacen recarga de gas?",
+        "a": "Sí. Realizamos recarga de gas refrigerante y diagnóstico completo del sistema."
+      },
+      {
+        "q": "¿Cuánto tarda una instalación?",
+        "a": "Una instalación completa de split puede tomar entre 3 y 6 horas según la complejidad."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Patricia M.",
+        "text": "Instalaron mi aire acondicionado y quedó perfecto. Muy profesionales y el trabajo quedó impecable.",
+        "rating": 5,
+        "date": "2025-10-25"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Instalación de split (por unidad)", "priceFrom": 25000 },
+        { "task": "Recarga de gas (por unidad)", "priceFrom": 8000 },
+        { "task": "Limpieza profunda (por unidad)", "priceFrom": 5000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 12,
+      "certifications": [
+        { "name": "Técnicos especializados en aire acondicionado", "id": "TEC-AA-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Aire Acondicionado en Zona Norte – Instalación y Mantenimiento",
+        "description": "Aire acondicionado en Zona Norte. Instalación split, mantenimiento y recarga de gas. Trabajos garantizados y profesionales.",
+        "image": "/images/services/aire-acondicionado/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Aire Acondicionado en Zona Norte",
+        "image": "/images/services/aire-acondicionado/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Aire acondicionado", "url": "/servicios/aire-acondicionado" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Aire Acondicionado",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/aire-acondicionado"
+        },
+        "description": "Servicios de aire acondicionado: instalación split, mantenimiento, recarga de gas y limpieza profunda para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Instalan cualquier marca de aire acondicionado?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Instalamos equipos de todas las marcas. Trabajamos con el equipo que el cliente elija." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Equipos sin instalar, falta de mantenimiento, pérdida de gas y necesidad de limpieza. Ofrecemos diagnóstico, presupuesto y soluciones completas con garantía."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["aire acondicionado", "split", "mantenimiento aire", "recarga gas", "zona norte", "servicios hogar"],
+    "relatedServices": ["electricidad", "albanileria", "carpinteria"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  },
+  {
+    "id": "limpieza-post-obra",
+    "slug": "limpieza-post-obra",
+    "title": "Limpieza Post-Obra en Zona Norte – Limpieza Fina",
+    "shortTitle": "Limpieza Post-Obra Zona Norte",
+    "meta": {
+      "title": "Limpieza Post-Obra en Zona Norte – Profesionales Certificados | Limpieza Fina y Terminaciones",
+      "description": "Limpieza post-obra en Zona Norte. Soluciones rápidas y garantizadas. Limpieza fina, remoción de restos de obra, terminaciones y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
+      "keywords": "limpieza post obra zona norte, limpieza fina zona norte, limpieza pilar, limpieza san isidro, terminaciones zona norte",
+      "canonical": "https://servicioszonanorte.com/servicios/limpieza-post-obra",
+      "lastUpdated": "2025-11-27"
+    },
+    "paths": {
+      "serviceUrl": "/servicios/limpieza-post-obra",
+      "locationsBase": "/donde-trabajamos",
+      "contactUrl": "/contacto",
+      "bookingUrl": "/presupuesto"
+    },
+    "serviceIcon": "🧹",
+    "serviceName": "Especialista en Limpieza",
+    "sections": {
+      "servicesIncluded": {
+        "title": "Servicios de Limpieza Post-Obra que Ofrecemos",
+        "description": "Como especialista en limpieza post-obra en Zona Norte, dejamos tu hogar completamente limpio después de cualquier trabajo."
+      },
+      "benefits": {
+        "title": "Por qué elegirnos para limpieza post-obra en Zona Norte"
+      },
+      "examplesOfWork": {
+        "title": "Tipos de Trabajos que Realizamos",
+        "description": "Ejemplos de servicios de limpieza post-obra que realizamos en Zona Norte"
+      },
+      "process": {
+        "title": "Cómo Trabajamos"
+      },
+      "localities": {
+        "title": "Limpieza post-obra en todas las localidades de Zona Norte",
+        "description": "Atendemos en todas las localidades de Zona Norte. Cada localidad tiene su propia landing con información específica."
+      },
+      "cta": {
+        "title": "¿Necesitás limpieza post-obra en Zona Norte?",
+        "description": "Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.",
+        "whatsappLabel": "WhatsApp",
+        "contactLabel": "Formulario de contacto"
+      }
+    },
+    "hero": {
+      "title": "Limpieza Post-Obra en Zona Norte – Técnicos Expertos en Limpieza Fina",
+      "subtitle": "Limpieza fina, remoción de restos de obra y terminaciones. Dejamos tu hogar listo para habitar después de cualquier trabajo.",
+      "ctas": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.me/5491124052012",
+          "priority": 1
+        },
+        {
+          "type": "link",
+          "label": "Solicitar presupuesto",
+          "href": "/contacto",
+          "priority": 2
+        }
+      ],
+      "image": {
+        "src": "/images/heros-bg/hero-mesa-herramientas.png",
+        "alt": "Limpieza profesional post-obra, herramientas y espacio limpio",
+        "width": 2400,
+        "height": 1400,
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "recommendedAIPrompt": "professional post-construction cleaning, clean workspace, tools organized, professional lighting, neutral tones, wide shot, high resolution"
+      },
+      "backgroundStyles": {
+        "overlay": "linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,1) 100%)",
+        "tailwindClasses": "bg-white text-[#0A2A43]"
+      }
+    },
+    "servicesIncluded": [
+      "Limpieza fina",
+      "Remoción de restos de obra",
+      "Terminaciones",
+      "Limpieza de polvo y residuos",
+      "Limpieza de vidrios y superficies",
+      "Organización y orden final"
+    ],
+    "benefits": [
+      "Personal especializado",
+      "Servicio rápido y eficiente",
+      "Presupuesto transparente y por escrito",
+      "Trabajo garantizado",
+      "Productos de limpieza profesionales",
+      "Dejamos todo listo para habitar"
+    ],
+    "examplesOfWork": [
+      {
+        "id": "limpieza-fina",
+        "titulo": "Limpieza fina completa",
+        "descripcion": "Limpieza profunda de toda la vivienda después de obra. Eliminación de polvo, residuos y terminaciones perfectas.",
+        "icon": "🧹",
+        "image": {
+          "src": "/images/services/limpieza/ejemplo-fina.jpg",
+          "alt": "Limpieza fina completa",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "remocion-restos",
+        "titulo": "Remoción de restos de obra",
+        "descripcion": "Retiro completo de restos de construcción, materiales sobrantes y escombros. Dejamos el espacio completamente limpio.",
+        "icon": "🗑️",
+        "image": {
+          "src": "/images/services/limpieza/ejemplo-restos.jpg",
+          "alt": "Remoción de restos de obra",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "terminaciones",
+        "titulo": "Terminaciones y pulido",
+        "descripcion": "Limpieza de vidrios, pulido de superficies y terminaciones finales. Todo listo para que disfrutes tu hogar.",
+        "icon": "✨",
+        "image": {
+          "src": "/images/services/limpieza/ejemplo-terminaciones.jpg",
+          "alt": "Terminaciones y pulido",
+          "width": 1200,
+          "height": 800
+        }
+      },
+      {
+        "id": "organizacion",
+        "titulo": "Organización y orden final",
+        "descripcion": "Organización de espacios y orden final. Dejamos todo en su lugar y listo para habitar.",
+        "icon": "📦",
+        "image": {
+          "src": "/images/services/limpieza/ejemplo-organizacion.jpg",
+          "alt": "Organización y orden final",
+          "width": 1200,
+          "height": 800
+        }
+      }
+    ],
+    "process": [
+      {
+        "paso": 1,
+        "titulo": "Contacto",
+        "descripcion": "Llamada o formulario. Coordinamos visita en el día.",
+        "icon": "📞"
+      },
+      {
+        "paso": 2,
+        "titulo": "Relevamiento",
+        "descripcion": "Inspección del espacio, evaluación y presupuesto detallado por escrito.",
+        "icon": "🔍"
+      },
+      {
+        "paso": 3,
+        "titulo": "Ejecución",
+        "descripcion": "Limpieza profesional con productos adecuados y técnicas especializadas.",
+        "icon": "🔧"
+      },
+      {
+        "paso": 4,
+        "titulo": "Entrega",
+        "descripcion": "Revisión final, entrega del espacio completamente limpio y listo para habitar.",
+        "icon": "✓"
+      }
+    ],
+    "localidades": [
+      { "name": "Pilar", "slug": "pilar", "url": "/donde-trabajamos/pilar" },
+      { "name": "San Isidro", "slug": "san-isidro", "url": "/donde-trabajamos/san-isidro" },
+      { "name": "Tigre", "slug": "tigre", "url": "/donde-trabajamos/tigre" },
+      { "name": "Vicente López", "slug": "vicente-lopez", "url": "/donde-trabajamos/vicente-lopez" },
+      { "name": "San Miguel", "slug": "san-miguel", "url": "/donde-trabajamos/san-miguel" },
+      { "name": "Malvinas Argentinas", "slug": "malvinas-argentinas", "url": "/donde-trabajamos/malvinas-argentinas" },
+      { "name": "José C. Paz", "slug": "jose-c-paz", "url": "/donde-trabajamos/jose-c-paz" },
+      { "name": "General San Martín", "slug": "general-san-martin", "url": "/donde-trabajamos/general-san-martin" },
+      { "name": "San Fernando", "slug": "san-fernando", "url": "/donde-trabajamos/san-fernando" },
+      { "name": "Zárate", "slug": "zarate", "url": "/donde-trabajamos/zarate" },
+      { "name": "Cardales", "slug": "cardales", "url": "/donde-trabajamos/cardales" }
+    ],
+    "gallery": [
+      { "src": "/images/services/limpieza/gallery-1.jpg", "alt": "Espacio limpio después de obra", "caption": "Limpieza profesional", "order": 1 },
+      { "src": "/images/services/limpieza/gallery-2.jpg", "alt": "Terminaciones perfectas", "caption": "Terminaciones impecables", "order": 2 },
+      { "src": "/images/services/limpieza/gallery-3.jpg", "alt": "Espacio organizado", "caption": "Todo en orden", "order": 3 }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué incluye la limpieza post-obra?",
+        "a": "Incluye limpieza fina completa, remoción de restos, limpieza de vidrios, pulido de superficies y organización final."
+      },
+      {
+        "q": "¿Cuánto tiempo tarda?",
+        "a": "Depende del tamaño del espacio y tipo de obra. Generalmente entre 4 y 8 horas de trabajo."
+      },
+      {
+        "q": "¿Usan productos especiales?",
+        "a": "Sí. Utilizamos productos profesionales adecuados para cada tipo de superficie y material."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Claudia V.",
+        "text": "Después de la refacción, hicieron la limpieza y quedó todo perfecto. Muy profesionales y detallistas.",
+        "rating": 5,
+        "date": "2025-10-30"
+      }
+    ],
+    "pricing": {
+      "callout": "Presupuestos transparentes y por escrito",
+      "emergencyFlatFee": null,
+      "estimateSample": [
+        { "task": "Limpieza fina (por m²)", "priceFrom": 2000 },
+        { "task": "Remoción de restos (por m³)", "priceFrom": 3000 },
+        { "task": "Limpieza completa vivienda", "priceFrom": 15000 }
+      ],
+      "currency": "ARS",
+      "showPricesOnSite": true
+    },
+    "warrantyAndCertifications": {
+      "warrantyMonths": 3,
+      "certifications": [
+        { "name": "Personal especializado en limpieza post-obra", "id": "TEC-LIMP-12345" }
+      ]
+    },
+    "contact": {
+      "phone": "+54 9 11 2405 2012",
+      "whatsapp": "https://wa.me/5491124052012",
+      "email": "contacto@servicioszonanorte.com",
+      "contactForm": "/contacto",
+      "officeHours": "Lun-Sab 08:00-19:00",
+      "responseTime": "Dentro del mismo día hábil"
+    },
+    "seo": {
+      "openGraph": {
+        "title": "Limpieza Post-Obra en Zona Norte – Limpieza Fina",
+        "description": "Limpieza post-obra en Zona Norte. Limpieza fina, remoción de restos y terminaciones. Servicio completo y profesional.",
+        "image": "/images/services/limpieza/og-image.jpg"
+      },
+      "twitterCard": {
+        "title": "Limpieza Post-Obra en Zona Norte",
+        "image": "/images/services/limpieza/twitter-card.jpg"
+      },
+      "breadcrumbs": [
+        { "name": "Inicio", "url": "/" },
+        { "name": "Servicios", "url": "/servicios" },
+        { "name": "Limpieza post-obra", "url": "/servicios/limpieza-post-obra" }
+      ]
+    },
+    "structuredData": {
+      "service": {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Limpieza Post-Obra",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Constructora & Mantenimiento del Hogar – Zona Norte",
+          "telephone": "+5491124052012",
+          "areaServed": "Zona Norte",
+          "url": "https://servicioszonanorte.com/servicios/limpieza-post-obra"
+        },
+        "description": "Servicios de limpieza post-obra: limpieza fina, remoción de restos y terminaciones para hogares en Zona Norte."
+      },
+      "faq": [
+        {
+          "@type": "Question",
+          "name": "¿Qué incluye la limpieza post-obra?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Incluye limpieza fina completa, remoción de restos, limpieza de vidrios, pulido de superficies y organización final." }
+        }
+      ]
+    },
+    "contentBlocks": [
+      {
+        "type": "hero",
+        "dataRef": "hero"
+      },
+      {
+        "type": "problem-solution",
+        "title": "Problemas comunes y solución profesional",
+        "content": "Restos de obra, polvo en todas partes, superficies sucias y necesidad de terminaciones. Ofrecemos limpieza completa y profesional para dejar tu hogar listo para habitar."
+      },
+      {
+        "type": "grid",
+        "title": "Servicios incluidos",
+        "itemsRef": "servicesIncluded"
+      },
+      {
+        "type": "features",
+        "title": "Por qué elegirnos",
+        "itemsRef": "benefits"
+      },
+      {
+        "type": "examples",
+        "title": "Ejemplos de trabajos",
+        "itemsRef": "examplesOfWork"
+      },
+      {
+        "type": "process",
+        "title": "Cómo trabajamos",
+        "itemsRef": "process"
+      },
+      {
+        "type": "gallery",
+        "title": "Galería",
+        "itemsRef": "gallery"
+      },
+      {
+        "type": "localities",
+        "title": "Atendemos en",
+        "itemsRef": "localidades"
+      },
+      {
+        "type": "faqs",
+        "title": "Preguntas frecuentes",
+        "itemsRef": "faqs"
+      },
+      {
+        "type": "cta",
+        "title": "Solicitá presupuesto",
+        "ctas": [
+          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
+          { "type": "link", "label": "Formulario", "href": "/contacto" }
+        ]
+      }
+    ],
+    "tags": ["limpieza post obra", "limpieza fina", "terminaciones", "zona norte", "servicios hogar"],
+    "relatedServices": ["albanileria", "pintura", "carpinteria"],
+    "admin": {
+      "published": true,
+      "region": "Zona Norte",
+      "priority": 10,
+      "contentOwner": "marketing@servicioszonanorte.com"
+    }
+  }
+]

@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = genMeta({
   title: "Servicios de Construcción, Mantenimiento y Reparaciones en Zona Norte | Profesionales",
@@ -18,12 +19,14 @@ export default function Servicios() {
       slug: "electricidad",
       icon: "⚡",
       descripcion: "Instalaciones completas, tableros, luminarias, seguridad eléctrica y reparaciones urgentes.",
+      imagen: "/images/hero-electricista-tablero-pilar.png",
     },
     {
       nombre: "Plomería",
       slug: "plomeria",
       icon: "🔧",
       descripcion: "Pérdidas, cañerías, sanitarios, bombas presurizadoras, calefones y destapaciones menores.",
+      imagen: "/images/servicio-plomeria-san-martin.png",
     },
     {
       nombre: "Gas",
@@ -31,66 +34,70 @@ export default function Servicios() {
       icon: "🔥",
       descripcion: "Artefactos, cañerías, calefactores, reguladores y reparaciones internas.",
       nota: "(según matriculado)",
+      imagen: "/images/servicio-gasista-san-miguel.png",
     },
     {
       nombre: "Albañilería",
       slug: "albanileria",
       icon: "🧱",
       descripcion: "Durlock, paredes, revoques, filtraciones, baños, cocinas y pequeñas estructuras.",
+      imagen: "/images/servicio-albañileria-jose-c-paz.png",
     },
     {
       nombre: "Pintura",
       slug: "pintura",
       icon: "🎨",
       descripcion: "Interior, exterior, antihumedad, preparación de superficies y pintura de herrería.",
+      imagen: "/images/servicio-pintura-escobar.png",
     },
     {
       nombre: "Impermeabilización",
       slug: "impermeabilizacion",
       icon: "🛡️",
       descripcion: "Losa, chapa, terrazas, balcones, muros y membranas.",
+      imagen: "/images/servicio-impermeabilizacion-zarate.png",
     },
     {
       nombre: "Carpintería de madera",
       slug: "carpinteria",
       icon: "🪵",
       descripcion: "Reparaciones, puertas, muebles sencillos, zócalos y decks pequeños.",
-    },
-    {
-      nombre: "Zinguería",
-      slug: "zingueria",
-      icon: "📐",
-      descripcion: "Canaletas, bajadas, cumbreras y soluciones contra filtraciones.",
+      imagen: "/images/servicio-carpinteria-vicente-lopez.png",
     },
     {
       nombre: "Herrería",
       slug: "herrería",
       icon: "⚒️",
       descripcion: "Soldaduras, rejas, portones, estructuras livianas y refuerzos.",
+      imagen: "/images/servicio-herreria-san-fernando.png",
     },
     {
-      nombre: "Techos",
+      nombre: "Techos y Zinguería",
       slug: "techos",
       icon: "🏠",
-      descripcion: "Reparación de chapa, colocación de nuevas chapas, aislaciones y mantenimiento anual.",
+      descripcion: "Reparación de chapa, canaletas, bajadas, aislaciones y mantenimiento anual.",
+      imagen: "/images/servicio-zingueria-vicente-lopez.png",
     },
     {
       nombre: "Revestimientos y pisos",
       slug: "revestimientos-pisos",
       icon: "🔲",
       descripcion: "Cerámicos, porcelanatos, pisos flotantes, vinílicos y nivelaciones.",
+      imagen: "/images/servicio-colocacion-piso-san-isidro.png",
     },
     {
       nombre: "Aire acondicionado",
       slug: "aire-acondicionado",
       icon: "❄️",
       descripcion: "Instalación, mantenimiento, limpieza profunda, recarga de gas y reubicación.",
+      imagen: "/images/servicio-aire-acondicionado-tigre.png",
     },
     {
       nombre: "Limpieza post-obra",
       slug: "limpieza-post-obra",
       icon: "🧹",
       descripcion: "Limpieza fina, remoción de restos y terminaciones.",
+      imagen: "/images/heros-bg/hero-mesa-herramientas.png", // Usando imagen genérica
     },
   ];
 
@@ -159,31 +166,46 @@ export default function Servicios() {
       />
       <main className="flex min-h-screen flex-col">
       {/* HERO */}
-      <section className="bg-[#0A2A43] text-white py-20 md:py-28 px-4 md:px-8">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Servicios de Construcción, Mantenimiento y Reparaciones en Zona Norte
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-4xl mx-auto">
-            Profesionales especializados, trabajos garantizados y atención inmediata en todas las localidades de Zona Norte. 
-            Un solo equipo para resolver electricidad, plomería, gas, albañilería, pintura, impermeabilización, techos y más.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 font-semibold"
-            >
-              WhatsApp
-            </Button>
-            <Link href="/contacto">
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-2 border-white text-white hover:bg-white/10"
-              >
-                Presupuesto
-              </Button>
-            </Link>
+      <section className="relative min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden bg-white">
+        {/* Background image */}
+        <div
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: "url('/images/heros-bg/hero-mesa-herramientas.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center center",
+            backgroundRepeat: "no-repeat",
+          }}
+          aria-hidden="true"
+        />
+        
+       
+        
+        {/* Overlay con gradiente claro para más profundidad y mejor contraste */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white/10  to-white z-10" aria-hidden="true" />
+
+        {/* Contenido */}
+        <div className="relative z-20 w-full px-4 md:px-8 py-16 md:py-24 flex items-center justify-center">
+          <div className="w-full max-w-6xl mx-auto text-center flex flex-col items-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[#0A2A43] drop-shadow-lg leading-tight">
+              Servicios de Construcción, Mantenimiento y Reparaciones en Zona Norte
+            </h1>
+            <p className="text-lg md:text-xl lg:text-2xl mb-10 text-[#0A2A43] max-w-4xl mx-auto drop-shadow-sm leading-relaxed">
+              Profesionales especializados, trabajos garantizados y atención inmediata en todas las localidades de Zona Norte. 
+              Un solo equipo para resolver electricidad, plomería, gas, albañilería, pintura, impermeabilización, techos y más.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+              <WhatsAppButton />
+              <Link href="/contacto">
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="border-2 border-[#0A2A43] text-[#0A2A43] hover:bg-[#0A2A43] hover:text-white font-semibold shadow-lg transition-all"
+                >
+                  Presupuesto
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -203,29 +225,54 @@ export default function Servicios() {
               <Link
                 key={i}
                 href={`/servicios/${servicio.slug}`}
-                className="relative bg-white p-8 rounded-2xl border border-[#e0e3e7] hover:shadow-2xl hover:border-[#3F6E8F] transition-all group flex flex-col items-center text-center min-h-[320px]"
+                className="relative group overflow-hidden rounded-2xl border border-[#e0e3e7] hover:border-[#3F6E8F] hover:shadow-2xl transition-all duration-300 flex flex-col min-h-[320px]"
                 style={{
                   boxShadow: "0 2px 12px 0 rgba(63,110,143,0.09)",
                 }}
               >
-                <div className="absolute top-6 right-6">
-                  {/* Optional badge or future icons */}
+                {/* Background Image */}
+                <div
+                  className="absolute inset-0 z-0"
+                  style={{
+                    backgroundImage: `url('${servicio.imagen}')`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                  aria-hidden="true"
+                />
+                
+                {/* Overlay oscuro para legibilidad */}
+                <div className="absolute inset-0 bg-[#0A2A43]/20 group-hover:bg-[#0A2A43]/70 transition-colors duration-300 z-10" aria-hidden="true" />
+                
+                {/* Overlay con gradiente para mejor contraste */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0A2A43]/95 via-[#0A2A43]/80 to-[#0A2A43]/60 z-10" aria-hidden="true" />
+
+                {/* Contenido */}
+                <div className="relative z-20 p-6 flex flex-col items-center text-center h-full justify-between">
+                  {/* Icono */}
+                  <div className="w-16 h-16 bg-gradient-to-tr from-[#3F6E8F] to-[#6498bd] rounded-xl shadow-lg flex items-center justify-center mb-4 border-4 border-white/20 group-hover:from-[#F2B441] group-hover:to-[#F2B441]/80 group-hover:scale-110 transition-all duration-300">
+                    <span className="text-4xl text-white drop-shadow-lg">{servicio.icon}</span>
+                  </div>
+
+                  {/* Título y descripción */}
+                  <div className="flex-1 flex flex-col justify-center">
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#F2B441] transition-colors drop-shadow-lg">
+                      {servicio.nombre}
+                      {servicio.nota && (
+                        <span className="block text-xs mt-1 text-gray-300 font-normal">{servicio.nota}</span>
+                      )}
+                    </h3>
+                    <p className="text-gray-100 text-sm font-normal leading-relaxed drop-shadow-md">
+                      {servicio.descripcion}
+                    </p>
+                  </div>
+
+                  {/* Badge */}
+                  <span className="mt-6 inline-block bg-[#F2B441]/90 text-[#0A2A43] text-xs font-bold px-4 py-2 rounded-full group-hover:bg-[#F2B441] group-hover:scale-105 transition-all duration-300 shadow-lg">
+                    Ver más →
+                  </span>
                 </div>
-                <div className="w-16 h-16 bg-gradient-to-tr from-[#3F6E8F] to-[#6498bd] rounded-xl shadow-md flex items-center justify-center mb-5 border-4 border-white group-hover:from-[#0A2A43] group-hover:to-[#2f5178] transition-colors">
-                  <span className="text-4xl text-white drop-shadow">{servicio.icon}</span>
-                </div>
-                <h3 className="text-xl font-semibold text-[#163954] mb-3 group-hover:text-[#3F6E8F] transition-colors">
-                  {servicio.nombre}
-                  {servicio.nota && (
-                    <span className="block text-xs mt-1 text-[#6c8fab] font-normal">{servicio.nota}</span>
-                  )}
-                </h3>
-                <p className="text-gray-600 text-base mb-0 font-normal leading-relaxed flex-1">
-                  {servicio.descripcion}
-                </p>
-                <span className="mt-6 inline-block bg-[#F2B441]/10 text-[#B68D16] text-xs font-medium px-4 py-1 rounded-full group-hover:bg-[#F2B441]/20 transition">
-                  Ver más
-                </span>
               </Link>
             ))}
           </div>
@@ -336,12 +383,7 @@ export default function Servicios() {
             Atención inmediata en todas las localidades de Zona Norte.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 font-semibold"
-            >
-              WhatsApp
-            </Button>
+            <WhatsAppButton />
             <Link href="/contacto">
               <Button 
                 size="lg" 

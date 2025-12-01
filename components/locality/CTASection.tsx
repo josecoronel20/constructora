@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 interface CTASectionProps {
   title: string;
@@ -34,14 +35,12 @@ export default function CTASection({
           {description}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button
-            
-            className="bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+          <WhatsAppButton
+            phone={whatsappUrl.replace("https://wa.me/", "")}
+            className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
           >
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-              📱 Contactar por WhatsApp
-            </a>
-          </Button>
+            Contactar por WhatsApp
+          </WhatsAppButton>
           <Button
             
             variant="outline"

@@ -114,20 +114,6 @@ export default function SanIsidro() {
       ],
     },
     {
-      nombre: "Zinguería",
-      slug: "zingueria",
-      icon: "📐",
-      titulo: "Zinguería en San Isidro",
-      descripcion: "Servicios de zinguería en San Isidro. Canaletas, bajadas pluviales, cumbreras y soluciones contra filtraciones. Protección completa para tu techo.",
-      serviciosPrincipales: [
-        "Instalación de canaletas",
-        "Bajadas pluviales",
-        "Cumbreras",
-        "Reparación de filtraciones",
-        "Mantenimiento de techos",
-      ],
-    },
-    {
       nombre: "Herrería",
       slug: "herrería",
       icon: "⚒️",
@@ -142,7 +128,7 @@ export default function SanIsidro() {
       ],
     },
     {
-      nombre: "Techos",
+      nombre: "Techos y Zinguería",
       slug: "techos",
       icon: "🏠",
       titulo: "Techos en San Isidro",

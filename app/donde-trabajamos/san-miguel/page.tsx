@@ -114,20 +114,6 @@ export default function SanMiguel() {
       ],
     },
     {
-      nombre: "Zinguería",
-      slug: "zingueria",
-      icon: "📐",
-      titulo: "Zinguería en San Miguel",
-      descripcion: "Servicios de zinguería en San Miguel. Canaletas, bajadas pluviales, cumbreras y soluciones contra filtraciones. Protección completa para tu techo.",
-      serviciosPrincipales: [
-        "Instalación de canaletas",
-        "Bajadas pluviales",
-        "Cumbreras",
-        "Reparación de filtraciones",
-        "Mantenimiento de techos",
-      ],
-    },
-    {
       nombre: "Herrería",
       slug: "herrería",
       icon: "⚒️",
@@ -142,17 +128,18 @@ export default function SanMiguel() {
       ],
     },
     {
-      nombre: "Techos",
+      nombre: "Techos y Zinguería",
       slug: "techos",
       icon: "🏠",
-      titulo: "Techos en San Miguel",
-      descripcion: "Reparación y mantenimiento de techos en San Miguel. Reparación de chapas, colocación de nuevas chapas, aislaciones y mantenimiento anual. Protección completa para tu hogar.",
+      titulo: "Techos y Zinguería en San Miguel",
+      descripcion: "Reparación de techos y zinguería en San Miguel. Reparación de chapas, colocación de nuevas chapas, canaletas, bajadas, babeta, cumbreras, aislaciones y mantenimiento anual. Protección completa para tu hogar.",
       serviciosPrincipales: [
         "Reparación de techos de chapa",
         "Colocación de nuevas chapas",
+        "Instalación de canaletas y bajadas",
+        "Babeta y cumbreras",
         "Aislaciones térmicas",
         "Mantenimiento anual",
-        "Impermeabilización de techos",
       ],
     },
     {

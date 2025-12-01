@@ -1,349 +1,121 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import type { Metadata } from "next";
+import Breadcrumbs from "@/components/SEO/Breadcrumbs";
+import StructuredData from "@/components/SEO/StructuredData";
+import { generateMetadata as genMeta } from "@/lib/seo";
+import { getServiceData } from "@/lib/get-service-data";
+import {
+  ServiceHeroSection,
+  ProblemSolutionSection,
+  ServicesIncludedSection,
+  BenefitsSection,
+  ExamplesOfWorkSection,
+  ProcessSection,
+  LocalitiesSection,
+  CTASection,
+} from "../components";
 
-export const metadata: Metadata = {
-  title: "Albañil en Zona Norte – Profesionales Certificados | Construcción y Refacciones",
-  description: "Albañil en Zona Norte. Soluciones rápidas y garantizadas en hogares. Construcción y reparación de paredes, durlock, revoques, refacción de baños y cocinas y más. Atención en Pilar, San Isidro, Tigre y toda Zona Norte.",
-  keywords: "albañil zona norte, albañil pilar, albañil san isidro, construcción zona norte, refacciones zona norte, durlock zona norte",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const serviceData = getServiceData("albanileria");
+  if (!serviceData) {
+    return genMeta({
+      title: "Albañil en Zona Norte",
+      description: "Servicios de albañilería en Zona Norte",
+    });
+  }
 
-export default function Albanileria() {
-  const serviciosIncluidos = [
-    "Construcción y reparación de paredes",
-    "Colocación de durlock (tabiques, cielorrasos)",
-    "Revoques y enlucidos",
-    "Reparación de grietas y filtraciones",
-    "Hormigón para pequeñas estructuras (contrapisos, veredas internas)",
-    "Apertura y cierre de vanos",
-    "Bases para aires acondicionados",
-    "Refacción de baños y cocinas",
-  ];
-
-  const beneficios = [
-    "Técnicos especializados",
-    "Diagnóstico en el día",
-    "Trabajos garantizados",
-    "Materiales certificados",
-    "Cumplimiento de normas",
-    "Presupuesto transparente",
-  ];
-
-  const ejemplosTrabajos = [
-    {
-      titulo: "Refacción completa de baños y cocinas",
-      descripcion: "Renovación integral de baños y cocinas. Construcción, revoques, instalaciones y terminaciones profesionales.",
-      icon: "🏠",
-    },
-    {
-      titulo: "Construcción y reparación de paredes",
-      descripcion: "Construcción de nuevas paredes, reparación de muros dañados y refuerzos estructurales. Trabajos en ladrillo y durlock.",
-      icon: "🧱",
-    },
-    {
-      titulo: "Durlock y cielorrasos",
-      descripcion: "Instalación profesional de tabiques y cielorrasos en durlock. Soluciones modernas y rápidas para dividir ambientes.",
-      icon: "📐",
-    },
-    {
-      titulo: "Revoques y reparación de filtraciones",
-      descripcion: "Revoques interiores y exteriores, reparación de grietas y soluciones definitivas para filtraciones de agua.",
-      icon: "🔨",
-    },
-  ];
-
-  const proceso = [
-    {
-      paso: "1",
-      titulo: "Contacto",
-      descripcion: "Llamanos o completá el formulario. Coordinamos visita en el día.",
-      icon: "📞",
-    },
-    {
-      paso: "2",
-      titulo: "Relevamiento",
-      descripcion: "Evaluación profesional del problema o proyecto. Diagnóstico preciso.",
-      icon: "🔍",
-    },
-    {
-      paso: "3",
-      titulo: "Ejecución",
-      descripcion: "Trabajo realizado por técnicos certificados con materiales de primera.",
-      icon: "🔧",
-    },
-    {
-      paso: "4",
-      titulo: "Garantía",
-      descripcion: "Control de calidad y garantía escrita en todos los trabajos.",
-      icon: "✓",
-    },
-  ];
-
-  const localidades = [
-    "Pilar",
-    "San Isidro",
-    "Tigre",
-    "Vicente López",
-    "San Miguel",
-    "Malvinas Argentinas",
-    "José C. Paz",
-    "General San Martín",
-    "San Fernando",
-    "Zárate",
-    "Cardales",
-  ];
-
-  return (
-    <main className="flex min-h-screen flex-col">
-      {/* HERO */}
-      <section className="bg-[#0A2A43] text-white py-20 md:py-28 px-4 md:px-8 relative overflow-hidden">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Contenido */}
-            <div className="text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Albañil en Zona Norte – Profesionales Certificados
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-gray-200">
-                Soluciones rápidas y garantizadas en hogares, comercios e industrias.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <Button 
-                  size="lg" 
-                  className="bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 font-semibold"
-                >
-                  WhatsApp
-                </Button>
-                <Link href="/contacto">
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="border-2 border-white text-white hover:bg-white/10"
-                  >
-                    Presupuesto
-                  </Button>
-                </Link>
-              </div>
-            </div>
-            {/* Espacio para imagen futura */}
-            <div className="hidden md:flex items-center justify-center">
-              <div className="w-full h-64 md:h-80 bg-white/10 rounded-lg border-2 border-white/20 flex items-center justify-center">
-                <span className="text-white/50 text-sm">Imagen del servicio</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PROBLEMA Y SOLUCIÓN SEO */}
-      <section className="bg-white py-16 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3F6E8F] mb-8 text-center">
-            Problemas Comunes y Soluciones Profesionales
-          </h2>
-          <div className="prose prose-lg max-w-none">
-            <p className="text-lg text-[#636B75] leading-relaxed mb-4">
-              ¿Necesitás <strong className="text-[#0A2A43]">construir o reparar paredes</strong>? 
-              ¿Querés <strong className="text-[#0A2A43]">dividir ambientes con durlock</strong> o 
-              <strong className="text-[#0A2A43]"> refaccionar tu baño o cocina</strong>? 
-              ¿Tenés <strong className="text-[#0A2A43]">grietas o filtraciones</strong> que necesitan reparación urgente?
-            </p>
-            <p className="text-lg text-[#636B75] leading-relaxed mb-4">
-              Como <strong className="text-[#0A2A43]">albañil en Zona Norte</strong>, resolvemos todos estos problemas 
-              con profesionalismo y calidad. Trabajamos con <strong className="text-[#0A2A43]">construcción y reparación de paredes</strong>, 
-              <strong className="text-[#0A2A43]"> colocación de durlock</strong> para tabiques y cielorrasos, 
-              <strong className="text-[#0A2A43]"> revoques y enlucidos</strong> profesionales, y 
-              <strong className="text-[#0A2A43]"> refacciones completas de baños y cocinas</strong>.
-            </p>
-            <p className="text-lg text-[#636B75] leading-relaxed">
-              Nuestros <strong className="text-[#0A2A43]">albañiles certificados en Zona Norte</strong> están especializados 
-              en trabajos de construcción menor, refacciones y mejoras del hogar. Desde la construcción de una nueva pared 
-              hasta la refacción completa de un baño, ofrecemos soluciones profesionales, con materiales de primera calidad 
-              y garantía escrita en todos nuestros trabajos.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* SERVICIOS INCLUIDOS */}
-      <section className="bg-[#F4F5F7] py-16 px-4 md:px-8">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3F6E8F] mb-4 text-center">
-            Servicios de Albañilería que Ofrecemos
-          </h2>
-          <p className="text-center text-[#636B75] mb-12 max-w-3xl mx-auto text-lg">
-            Como albañil en Zona Norte, cubrimos todas las necesidades de construcción y refacción de tu hogar, 
-            desde trabajos menores hasta refacciones completas.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {serviciosIncluidos.map((servicio, i) => (
-              <div
-                key={i}
-                className="bg-white p-6 rounded-lg border border-[#636B75] hover:shadow-lg transition-shadow"
-              >
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-[#3F6E8F] rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-lg">✓</span>
-                  </div>
-                  <p className="text-[#0A2A43] font-medium">{servicio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* BENEFICIOS */}
-      <section className="bg-white py-16 px-4 md:px-8">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3F6E8F] mb-12 text-center">
-            Por qué elegirnos como tu albañil en Zona Norte
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {beneficios.map((beneficio, i) => (
-              <div key={i} className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#F2B441] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <span className="text-[#0A2A43] text-xl font-bold">✓</span>
-                </div>
-                <p className="text-lg font-medium text-[#0A2A43]">{beneficio}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* GALERÍA / EJEMPLOS DE TRABAJOS */}
-      <section className="bg-[#F4F5F7] py-16 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3F6E8F] mb-4 text-center">
-            Tipos de Trabajos que Realizamos
-          </h2>
-          <p className="text-center text-[#636B75] mb-12 max-w-3xl mx-auto text-lg">
-            Ejemplos de proyectos típicos que realizamos como albañiles en Zona Norte
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {ejemplosTrabajos.map((trabajo, i) => (
-              <div
-                key={i}
-                className="bg-white p-6 rounded-lg border border-[#636B75] hover:shadow-xl transition-shadow"
-              >
-                <div className="w-16 h-16 bg-[#3F6E8F] rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-3xl">{trabajo.icon}</span>
-                </div>
-                <h3 className="text-xl font-bold text-[#0A2A43] mb-3">
-                  {trabajo.titulo}
-                </h3>
-                <p className="text-[#636B75]">
-                  {trabajo.descripcion}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PROCESO DE TRABAJO */}
-      <section className="bg-white py-16 px-4 md:px-8">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3F6E8F] mb-12 text-center">
-            Cómo Trabajamos
-          </h2>
-          <div className="grid md:grid-cols-4 gap-6 md:gap-4">
-            {proceso.map((item, i) => (
-              <div key={i} className="text-center relative">
-                {i < 3 && (
-                  <div className="hidden lg:block absolute top-12 left-[calc(50%+2rem)] w-[calc(100%-4rem)] h-0.5 bg-[#636B75] -z-10"></div>
-                )}
-                <div className="w-16 h-16 bg-[#0A2A43] rounded-full mx-auto mb-3 flex items-center justify-center relative z-10">
-                  <span className="text-white text-2xl">{item.icon}</span>
-                </div>
-                <div className="w-8 h-8 bg-[#F2B441] rounded-full mx-auto mb-3 flex items-center justify-center">
-                  <span className="text-[#0A2A43] font-bold text-sm">{item.paso}</span>
-                </div>
-                <h3 className="text-base md:text-lg font-semibold text-[#0A2A43] mb-2">
-                  {item.titulo}
-                </h3>
-                <p className="text-sm text-[#636B75]">{item.descripcion}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* LOCALIDADES */}
-      <section className="bg-[#F4F5F7] py-16 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3F6E8F] mb-4 text-center">
-            Albañil en todas las localidades de Zona Norte
-          </h2>
-          <p className="text-center text-[#636B75] mb-12 max-w-3xl mx-auto text-lg">
-            Atendemos como albañiles en todas las localidades de Zona Norte. 
-            Cada localidad tiene su propia landing con información específica.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
-            {localidades.map((localidad, i) => {
-              const slug = localidad.toLowerCase().replace(/\s+/g, "-");
-              return (
-                <Link
-                  key={i}
-                  href={`/donde-trabajamos/${slug}`}
-                  className="bg-white p-5 rounded-lg border border-[#636B75] hover:shadow-lg hover:border-[#3F6E8F] transition-all text-center group"
-                >
-                  <div className="w-12 h-12 bg-[#0A2A43] rounded-full mx-auto mb-3 flex items-center justify-center group-hover:bg-[#3F6E8F] transition-colors">
-                    <span className="text-white text-xl">🧱</span>
-                  </div>
-                  <h3 className="text-base md:text-lg font-semibold text-[#0A2A43] group-hover:text-[#3F6E8F] transition-colors">
-                    Albañil en {localidad}
-                  </h3>
-                  <p className="text-xs text-[#636B75] mt-1">
-                    Ver servicios →
-                  </p>
-                </Link>
-              );
-            })}
-          </div>
-          <div className="text-center">
-            <Link href="/donde-trabajamos">
-              <Button 
-                variant="outline" 
-                className="border-[#0A2A43] text-[#0A2A43] hover:bg-[#0A2A43] hover:text-white"
-              >
-                Ver todas las localidades →
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA FINAL */}
-      <section className="bg-[#0A2A43] text-white py-16 md:py-20 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            ¿Necesitás un albañil en Zona Norte?
-          </h2>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200">
-            Contactanos ahora y recibí tu presupuesto sin compromiso. Atención inmediata.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 font-semibold"
-            >
-              WhatsApp
-            </Button>
-            <Link href="/contacto">
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-2 border-white text-white hover:bg-white/10"
-              >
-                Formulario de contacto
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-    </main>
-  );
+  return genMeta({
+    title: serviceData.meta.title,
+    description: serviceData.meta.description,
+    keywords: serviceData.meta.keywords,
+    canonical: serviceData.meta.canonical,
+  });
 }
 
+export default function Albanileria() {
+  const serviceData = getServiceData("albanileria");
+
+  if (!serviceData) {
+    return <div>Servicio no encontrado</div>;
+  }
+
+  const problemSolutionBlock = serviceData.contentBlocks.find(
+    (block) => block.type === "problem-solution"
+  );
+
+  return (
+    <>
+      <Breadcrumbs items={serviceData.seo.breadcrumbs} />
+      <StructuredData
+        type="Service"
+        data={serviceData.structuredData.service}
+      />
+      <main className="flex min-h-screen flex-col bg-background">
+        <ServiceHeroSection
+          title={serviceData.hero.title}
+          subtitle={serviceData.hero.subtitle}
+          ctas={serviceData.hero.ctas}
+          image={serviceData.hero.image}
+          backgroundStyles={serviceData.hero.backgroundStyles}
+        />
+
+        {problemSolutionBlock && (
+          <ProblemSolutionSection
+            title={problemSolutionBlock.title}
+            content={problemSolutionBlock.content}
+          />
+        )}
+
+        <ServicesIncludedSection
+          title={serviceData.sections.servicesIncluded.title}
+          description={serviceData.sections.servicesIncluded.description}
+          services={serviceData.servicesIncluded}
+        />
+
+        <div className="px-4 md:px-6">
+          <div className="max-w-6xl mx-auto md:grid md:grid-cols-2 gap-4">
+            <BenefitsSection
+              title={serviceData.sections.benefits.title}
+              benefits={serviceData.benefits}
+              inGrid={true}
+            />
+
+            <ProcessSection
+              title={serviceData.sections.process.title}
+              process={serviceData.process}
+              inGrid={true}
+            />
+          </div>
+        </div>
+
+        <div className="px-4 md:px-6">
+          <div className="max-w-6xl mx-auto md:grid md:grid-cols-2 gap-4">
+            <ExamplesOfWorkSection
+              title={serviceData.sections.examplesOfWork.title}
+              description={serviceData.sections.examplesOfWork.description}
+              examples={serviceData.examplesOfWork}
+              inGrid={true}
+            />
+
+            <LocalitiesSection
+              title={serviceData.sections.localities.title}
+              description={serviceData.sections.localities.description}
+              localidades={serviceData.localidades}
+              serviceIcon={serviceData.serviceIcon}
+              serviceName={serviceData.serviceName}
+              inGrid={true}
+            />
+          </div>
+        </div>
+
+        <CTASection
+          title={serviceData.sections.cta.title}
+          description={serviceData.sections.cta.description}
+          whatsappUrl={serviceData.contact.whatsapp}
+          contactUrl={serviceData.contact.contactForm}
+          whatsappLabel={serviceData.sections.cta.whatsappLabel}
+          contactLabel={serviceData.sections.cta.contactLabel}
+        />
+      </main>
+    </>
+  );
+}

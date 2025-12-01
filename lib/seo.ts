@@ -21,7 +21,7 @@ export function generateMetadata({
   type = "website",
   noindex = false,
 }: SEOProps): Metadata {
-  const fullTitle = title.includes("|") ? title : `${title} | Servicios Zona Norte`;
+  const fullTitle = title.includes("|") ? title : `${title} | Constructora & Mantenimiento del Hogar – Zona Norte`;
   const fullDescription = description;
   const url = canonical || baseUrl;
   const keywordsArray = Array.isArray(keywords) ? keywords : keywords ? [keywords] : undefined;
@@ -30,9 +30,9 @@ export function generateMetadata({
     title: fullTitle,
     description: fullDescription,
     keywords: keywordsArray,
-    authors: [{ name: "Servicios Zona Norte" }],
-    creator: "Servicios Zona Norte",
-    publisher: "Servicios Zona Norte",
+    authors: [{ name: "Constructora & Mantenimiento del Hogar – Zona Norte" }],
+    creator: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    publisher: "Constructora & Mantenimiento del Hogar – Zona Norte",
     robots: {
       index: !noindex,
       follow: !noindex,
@@ -53,7 +53,7 @@ export function generateMetadata({
       url: url,
       title: fullTitle,
       description: fullDescription,
-      siteName: "Servicios Zona Norte",
+      siteName: "Constructora & Mantenimiento del Hogar – Zona Norte",
       images: [
         {
           url: `${baseUrl}${ogImage}`,

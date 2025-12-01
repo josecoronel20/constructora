@@ -56,7 +56,7 @@ export function getServiceStructuredData(
 ) {
   return {
     serviceType,
-    providerName: "Servicios Zona Norte",
+    providerName: "Constructora & Mantenimiento del Hogar – Zona Norte",
     areaServed: "Zona Norte",
     description,
   };
@@ -71,7 +71,7 @@ export function getLocalityStructuredData(
   zones: string[]
 ) {
   return {
-    name: `Servicios Zona Norte - ${localityName}`,
+    name: `Constructora & Mantenimiento del Hogar – Zona Norte - ${localityName}`,
     image: "https://servicioszonanorte.com/og-image.jpg",
     url: `https://servicioszonanorte.com/donde-trabajamos/${localitySlug}`,
     phone: "+5491123456789",

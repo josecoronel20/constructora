@@ -118,20 +118,6 @@ export default function Pilar() {
       ],
     },
     {
-      nombre: "Zinguería",
-      slug: "zingueria",
-      icon: "📐",
-      titulo: "Zinguería en Pilar",
-      descripcion: "Servicios de zinguería en Pilar. Canaletas, bajadas pluviales, cumbreras y soluciones contra filtraciones. Protección completa para tu techo.",
-      serviciosPrincipales: [
-        "Instalación de canaletas",
-        "Bajadas pluviales",
-        "Cumbreras",
-        "Reparación de filtraciones",
-        "Mantenimiento de techos",
-      ],
-    },
-    {
       nombre: "Herrería",
       slug: "herrería",
       icon: "⚒️",
@@ -146,17 +132,18 @@ export default function Pilar() {
       ],
     },
     {
-      nombre: "Techos",
+      nombre: "Techos y Zinguería",
       slug: "techos",
       icon: "🏠",
-      titulo: "Techos en Pilar",
-      descripcion: "Reparación y mantenimiento de techos en Pilar. Reparación de chapas, colocación de nuevas chapas, aislaciones y mantenimiento anual. Protección completa para tu hogar.",
+      titulo: "Techos y Zinguería en Pilar",
+      descripcion: "Reparación de techos y zinguería en Pilar. Reparación de chapas, colocación de nuevas chapas, canaletas, bajadas, babeta, cumbreras, aislaciones y mantenimiento anual. Protección completa para tu hogar.",
       serviciosPrincipales: [
         "Reparación de techos de chapa",
         "Colocación de nuevas chapas",
+        "Instalación de canaletas y bajadas",
+        "Babeta y cumbreras",
         "Aislaciones térmicas",
         "Mantenimiento anual",
-        "Impermeabilización de techos",
       ],
     },
     {
@@ -246,7 +233,7 @@ export default function Pilar() {
   ];
 
   const localBusinessData = {
-    name: "Servicios Zona Norte - Pilar",
+    name: "Constructora & Mantenimiento del Hogar – Zona Norte - Pilar",
     image: "https://servicioszonanorte.com/og-image.jpg",
     url: "https://servicioszonanorte.com/donde-trabajamos/pilar",
     phone: "+5491123456789",

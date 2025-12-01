@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 import { generateMetadata as genMeta } from "@/lib/seo";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = genMeta({
   title: "Donde Trabajamos – Servicios del Hogar en Zona Norte | Pilar, San Isidro, Tigre y Más",
@@ -122,9 +123,8 @@ export default function DondeTrabajamos() {
     { nombre: "Pintura", slug: "pintura", icon: "🎨" },
     { nombre: "Impermeabilización", slug: "impermeabilizacion", icon: "🛡️" },
     { nombre: "Carpintería", slug: "carpinteria", icon: "🪵" },
-    { nombre: "Zinguería", slug: "zingueria", icon: "📐" },
     { nombre: "Herrería", slug: "herrería", icon: "⚒️" },
-    { nombre: "Techos", slug: "techos", icon: "🏠" },
+    { nombre: "Techos y Zinguería", slug: "techos", icon: "🏠" },
     { nombre: "Revestimientos y Pisos", slug: "revestimientos-pisos", icon: "🔲" },
     { nombre: "Aire Acondicionado", slug: "aire-acondicionado", icon: "❄️" },
   ];
@@ -149,14 +149,9 @@ export default function DondeTrabajamos() {
             Profesionales verificados, trabajos garantizados y atención rápida en tu zona.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://wa.me/5491123456789"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 text-lg px-8 py-6 font-semibold rounded-md text-center transition-colors"
-            >
-              📱 Contactar por WhatsApp
-            </a>
+            <WhatsAppButton className="text-lg px-8 py-6">
+              Contactar por WhatsApp
+            </WhatsAppButton>
             <Link href="/contacto">
               <Button
                 variant="outline"
@@ -299,26 +294,116 @@ export default function DondeTrabajamos() {
             Ofrecemos todos nuestros servicios en cada una de las localidades donde trabajamos. 
             Cada servicio cuenta con profesionales especializados y su propia landing detallada.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
-            {serviciosPrincipales.map((servicio, index) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-8">
+            {[
+              {
+                nombre: "Electricidad",
+                href: "/servicios/electricidad",
+                bg: "/images/hero-electricista-tablero-pilar.png"
+              },
+              {
+                nombre: "Plomería",
+                href: "/servicios/plomeria",
+                bg: "/images/servicio-plomeria-san-martin.png"
+              },
+              {
+                nombre: "Gas",
+                href: "/servicios/gas",
+                bg: "/images/servicio-gasista-san-miguel.png"
+              },
+              {
+                nombre: "Albañilería",
+                href: "/servicios/albanileria",
+                bg: "/images/servicio-albañileria-jose-c-paz.png"
+              },
+              {
+                nombre: "Pintura",
+                href: "/servicios/pintura",
+                bg: "/images/servicio-pintura-escobar.png"
+              },
+              {
+                nombre: "Impermeabilización",
+                href: "/servicios/impermeabilizacion",
+                bg: "/images/servicio-impermeabilizacion-zarate.png"
+              },
+              {
+                nombre: "Carpintería",
+                href: "/servicios/carpinteria",
+                bg: "/images/servicio-carpinteria-vicente-lopez.png"
+              },
+              {
+                nombre: "Herrería",
+                href: "/servicios/herrería",
+                bg: "/images/servicio-herreria-san-fernando.png"
+              },
+              {
+                nombre: "Techos y Zinguería",
+                href: "/servicios/techos",
+                bg: "/images/servicio-zingueria-vicente-lopez.png"
+              },
+              {
+                nombre: "Revestimientos y Pisos",
+                href: "/servicios/revestimientos-pisos",
+                bg: "/images/servicio-colocacion-piso-san-isidro.png"
+              },
+              {
+                nombre: "Aire Acondicionado",
+                href: "/servicios/aire-acondicionado",
+                bg: "/images/servicio-aire-acondicionado-tigre.png"
+              },
+            ].map((servicio, i) => (
               <Link
-                key={index}
-                href={`/servicios/${servicio.slug}`}
-                className="bg-white p-6 rounded-lg border border-[#636B75] hover:shadow-lg hover:border-[#3F6E8F] transition-all text-center group"
+                key={i}
+                href={servicio.href}
+                className="group"
+                style={{ textDecoration: 'none' }}
               >
-                <div className="w-12 h-12 bg-[#0A2A43] rounded-full mx-auto mb-3 flex items-center justify-center group-hover:bg-[#3F6E8F] transition-colors">
-                  <span className="text-white text-xl">{servicio.icon}</span>
+                <div
+                  className="
+                    relative 
+                    bg-white 
+                    p-0 
+                    rounded-2xl 
+                    border 
+                    border-[#3F6E8F] 
+                    hover:shadow-2xl 
+                    hover:scale-105 
+                    transition-all 
+                    text-center 
+                    min-h-[190px] 
+                    flex 
+                    flex-col 
+                    items-center 
+                    overflow-hidden 
+                    duration-300
+                    focus-within:ring-2 focus-within:ring-[#F2B441]
+                  "
+                  style={{ 
+                    backgroundImage: `linear-gradient(rgba(10,42,67,0.48),rgba(10,42,67,0.56)), url(${servicio.bg})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  {/* Overlay refactor: subtle gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A2A43]/50 via-[#0A2A43]/30 to-transparent group-hover:from-[#0A2A43]/60 group-hover:via-[#0A2A43]/40 transition-all duration-300" />
+                  <div className="relative flex flex-col items-center justify-center flex-1 px-7 py-10 md:px-8 md:py-12">
+                    <h3 className="text-base md:text-lg font-bold text-white drop-shadow-lg shadow-black/30 tracking-tight mb-1 bg-[#0A2A43]/70 rounded px-3 py-2 group-hover:bg-[#0A2A43]/50 transition-all duration-200">
+                      {servicio.nombre}
+                    </h3>
+                  </div>
+                  {/* Sutil línea decorativa abajo */}
+                  <div className="h-1 w-full bg-[#F2B441] opacity-70 group-hover:opacity-90 transition-opacity rounded-b-2xl" />
                 </div>
-                <h3 className="text-sm md:text-base font-semibold text-[#0A2A43] group-hover:text-[#3F6E8F] transition-colors">
-                  {servicio.nombre}
-                </h3>
               </Link>
             ))}
           </div>
           <div className="text-center">
             <Link href="/servicios">
-              <Button className="bg-[#3F6E8F] text-white hover:bg-[#0A2A43]">
-                Ver todos los servicios en detalle →
+              <Button 
+                variant="outline" 
+                className="border-[#0A2A43] text-[#0A2A43] hover:bg-[#0A2A43] hover:text-white"
+              >
+                Ver todos los servicios →
               </Button>
             </Link>
           </div>
@@ -402,14 +487,9 @@ export default function DondeTrabajamos() {
             Respuesta rápida sin importar dónde esté tu hogar.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://wa.me/5491123456789"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 text-lg px-8 py-6 font-semibold rounded-md text-center transition-colors"
-            >
-              📱 Contactar por WhatsApp
-            </a>
+            <WhatsAppButton className="text-lg px-8 py-6">
+              Contactar por WhatsApp
+            </WhatsAppButton>
             <Link href="/contacto">
               <Button
                 variant="outline"

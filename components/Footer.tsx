@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function Footer() {
   const servicios = [
@@ -83,19 +84,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://wa.me/5491123456789"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-gray-300 hover:text-[#F2B441] transition-colors inline-flex items-center gap-2"
+                <WhatsAppButton
+                  size="sm"
+                  variant="ghost"
+                  className="text-sm text-gray-300 hover:text-[#F2B441] transition-colors p-0 h-auto"
                 >
-                  <span>📱</span> WhatsApp
-                </a>
+                  WhatsApp
+                </WhatsAppButton>
               </li>
             </ul>
             <div className="pt-4 border-t border-[#3F6E8F]">
               <p className="text-xs text-gray-400">
-                © 2024 Servicios Zona Norte. Todos los
+                © 2024 Constructora & Mantenimiento del Hogar – Zona Norte. Todos los
                 derechos reservados.
               </p>
             </div>

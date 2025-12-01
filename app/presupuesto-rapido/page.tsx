@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 
-export default function Contacto() {
+export default function PresupuestoRapido() {
   const [formData, setFormData] = useState({
     nombre: "",
     celular: "",
@@ -90,7 +91,7 @@ export default function Contacto() {
       <Breadcrumbs
         items={[
           { name: "Inicio", url: "/" },
-          { name: "Contacto", url: "/contacto" },
+          { name: "Presupuesto rápido", url: "/presupuesto-rapido" },
         ]}
       />
       <main className="flex min-h-screen flex-col">
@@ -103,11 +104,10 @@ export default function Contacto() {
         
         <div className="max-w-6xl mx-auto text-center relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Contactanos – Servicios del Hogar en Zona Norte
+            Pedí tu presupuesto rápido – Servicios del Hogar en Zona Norte
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            Estamos listos para ayudarte. Contactanos por WhatsApp, teléfono o completá el formulario 
-            y te responderemos a la brevedad.
+            Obtené tu presupuesto rápido. Escribinos por WhatsApp, llamanos o completá el formulario y te responderemos a la brevedad.
           </p>
         </div>
       </section>
@@ -124,21 +124,20 @@ export default function Contacto() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold">WhatsApp</h2>
-                  <p className="text-white/90">Respuesta inmediata</p>
+                  <p className="text-white/90">Presupuesto inmediato</p>
                 </div>
               </div>
               <p className="mb-6 text-white/90">
-                Escribinos por WhatsApp y recibí una respuesta al instante. 
-                Ideal para consultas urgentes y presupuestos rápidos.
+                Escribinos por WhatsApp y recibí un presupuesto en minutos. Ideal para urgencias y consultas rápidas.
               </p>
-              <a
-                href="https://wa.me/5491123456789"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-white text-[#25D366] hover:bg-white/90 text-lg font-semibold py-3 px-6 rounded-md text-center transition-colors"
-              >
-                Abrir WhatsApp
-              </a>
+              <div className="block w-full">
+                <WhatsAppButton 
+                  className="w-full bg-white text-[#25D366] hover:bg-white/90 text-lg font-semibold py-3 px-6"
+                  showIcon={false}
+                >
+                  Pedir presupuesto por WhatsApp
+                </WhatsAppButton>
+              </div>
             </div>
 
             {/* Teléfono */}
@@ -149,18 +148,17 @@ export default function Contacto() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold">Teléfono</h2>
-                  <p className="text-white/90">Llamanos directamente</p>
+                  <p className="text-white/90">Llamanos ahora mismo</p>
                 </div>
               </div>
               <p className="mb-6 text-white/90">
-                Llamanos durante nuestros horarios de atención. 
-                Estamos disponibles para responder todas tus consultas.
+                Llamanos y solicitá tu presupuesto por teléfono. Estamos disponibles para ayudarte de inmediato.
               </p>
               <a
                 href="tel:+5491123456789"
                 className="block w-full border-2 border-white text-white hover:bg-white hover:text-[#0A2A43] text-lg font-semibold py-3 px-6 rounded-md text-center transition-colors"
               >
-                Llamar ahora
+                Pedir presupuesto telefónico
               </a>
             </div>
           </div>
@@ -172,12 +170,11 @@ export default function Contacto() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0A2A43] mb-4">
-              Enviános tu consulta
+              Solicitá tu presupuesto online
             </h2>
             <div className="w-24 h-1 bg-[#F2B441] mx-auto rounded-full mb-6"></div>
             <p className="text-lg text-[#636B75] max-w-2xl mx-auto">
-              Completá el formulario y nos pondremos en contacto contigo a la brevedad. 
-              Todos los campos son obligatorios.
+              Completá el formulario y te enviaremos tu presupuesto a la brevedad. Todos los campos son obligatorios.
             </p>
           </div>
 
@@ -276,13 +273,13 @@ export default function Contacto() {
               {/* Mensaje de estado */}
               {submitStatus === "success" && (
                 <div className="bg-green-50 border-2 border-green-500 text-green-700 p-4 rounded-lg">
-                  ¡Gracias por contactarnos! Te responderemos a la brevedad.
+                  ¡Gracias por solicitar tu presupuesto! Te responderemos a la brevedad.
                 </div>
               )}
 
               {submitStatus === "error" && (
                 <div className="bg-red-50 border-2 border-red-500 text-red-700 p-4 rounded-lg">
-                  Hubo un error al enviar el formulario. Por favor, intentá nuevamente o contactanos por WhatsApp.
+                  Hubo un error al enviar tu solicitud. Por favor, intentá nuevamente o pedí tu presupuesto por WhatsApp.
                 </div>
               )}
 
@@ -292,7 +289,7 @@ export default function Contacto() {
                 disabled={isSubmitting}
                 className="w-full bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 text-lg font-semibold py-6 disabled:opacity-50"
               >
-                {isSubmitting ? "Enviando..." : "Enviar consulta"}
+                {isSubmitting ? "Enviando..." : "Solicitar presupuesto"}
               </Button>
             </div>
           </form>
@@ -329,7 +326,7 @@ export default function Contacto() {
                 Emergencias
               </h3>
               <p className="text-lg text-[#636B75]">
-                Atendemos emergencias las 24 horas. Contactanos por WhatsApp para urgencias.
+                Atendemos emergencias las 24 horas. Pedí tu presupuesto urgente por WhatsApp.
               </p>
             </div>
           </div>
@@ -383,26 +380,20 @@ export default function Contacto() {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            ¿Listo para comenzar?
+            ¿Querés tu presupuesto ahora?
           </h2>
           <p className="text-xl md:text-2xl mb-10 text-gray-200 leading-relaxed">
-            Contactanos ahora y recibí tu presupuesto sin costo. 
-            Respuesta rápida en todas las localidades de Zona Norte.
+            Pedí tu presupuesto gratis y recibí una respuesta rápida en todas las localidades de Zona Norte.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
-              href="https://wa.me/5491123456789"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#F2B441] text-[#0A2A43] hover:bg-[#F2B441]/90 text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105 rounded-md"
-            >
-              📱 Contactar por WhatsApp
-            </a>
+            <WhatsAppButton className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
+              Pedir por WhatsApp
+            </WhatsAppButton>
             <a
               href="tel:+5491123456789"
               className="inline-block border-2 border-white text-white hover:bg-white hover:text-[#0A2A43] text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105 rounded-md"
             >
-              📞 Llamar ahora
+              📞 Pedir por Teléfono
             </a>
           </div>
         </div>
@@ -411,4 +402,3 @@ export default function Contacto() {
     </>
   );
 }
-

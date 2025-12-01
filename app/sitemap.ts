@@ -10,7 +10,6 @@ const servicios = [
   "pintura",
   "impermeabilizacion",
   "carpinteria",
-  "zingueria",
   "herrería",
   "techos",
   "revestimientos-pisos",

@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/SEO/StructuredData";
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
+  variable: "--font-montserrat",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://servicioszonanorte.com"), // Cambiar por tu dominio real
   title: {
-    default: "Servicios del Hogar Zona Norte – Electricidad, Plomería, Pintura y Más",
-    template: "%s | Servicios Zona Norte",
+    default: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    template: "%s | Constructora & Mantenimiento del Hogar – Zona Norte",
   },
   description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Electricidad, plomería, gas, pintura, techos, impermeabilización y más. Profesionales verificados, trabajos garantizados y atención inmediata en Pilar, San Isidro, Tigre y todas las localidades.",
   keywords: [
@@ -27,9 +32,9 @@ export const metadata: Metadata = {
     "servicios san isidro",
     "servicios tigre",
   ],
-  authors: [{ name: "Servicios Zona Norte" }],
-  creator: "Servicios Zona Norte",
-  publisher: "Servicios Zona Norte",
+  authors: [{ name: "Constructora & Mantenimiento del Hogar – Zona Norte" }],
+  creator: "Constructora & Mantenimiento del Hogar – Zona Norte",
+  publisher: "Constructora & Mantenimiento del Hogar – Zona Norte",
   formatDetection: {
     email: false,
     address: false,
@@ -39,21 +44,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_AR",
     url: "https://servicioszonanorte.com",
-    siteName: "Servicios Zona Norte",
-    title: "Servicios del Hogar Zona Norte – Electricidad, Plomería, Pintura y Más",
+    siteName: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    title: "Constructora & Mantenimiento del Hogar – Zona Norte",
     description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Profesionales verificados, trabajos garantizados.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Servicios Zona Norte",
+        alt: "Constructora & Mantenimiento del Hogar – Zona Norte",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Servicios del Hogar Zona Norte",
+    title: "Constructora & Mantenimiento del Hogar – Zona Norte",
     description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte.",
     images: ["/og-image.jpg"],
   },
@@ -79,7 +84,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const organizationData = {
-    name: "Servicios Zona Norte",
+    name: "Constructora & Mantenimiento del Hogar – Zona Norte",
     url: "https://servicioszonanorte.com",
     logo: "https://servicioszonanorte.com/logo.png",
     phone: "+5491123456789",
@@ -105,7 +110,7 @@ export default function RootLayout({
 
   return (
     <html lang="es">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${montserrat.variable}`}>
         <StructuredData type="Organization" data={organizationData} />
         <Header />
         <main className="min-h-screen">{children}</main>

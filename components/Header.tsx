@@ -1,10 +1,12 @@
 "use client";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import Logo from "@/components/Logo";
 
 export default function Header() {
   // Lista de subservicios con sus rutas
   const servicios = [
+    { label: "Todos los servicios", href: "/servicios" },
     { label: "Electricidad", href: "/servicios/electricidad" },
     { label: "Plomería", href: "/servicios/plomeria" },
     { label: "Gas", href: "/servicios/gas" },
@@ -12,9 +14,8 @@ export default function Header() {
     { label: "Pintura", href: "/servicios/pintura" },
     { label: "Impermeabilización", href: "/servicios/impermeabilizacion" },
     { label: "Carpintería", href: "/servicios/carpinteria" },
-    { label: "Zinguería", href: "/servicios/zingueria" },
-    { label: "Herrería", href: "/servicios/herrería" },
-    { label: "Techos", href: "/servicios/techos" },
+    { label: "Herrería", href: "/servicios/herreria" },
+    { label: "Techos y Zinguería", href: "/servicios/techos" },
     { label: "Revestimientos y pisos", href: "/servicios/revestimientos-pisos" },
     { label: "Aire Acondicionado", href: "/servicios/aire-acondicionado" },
   ];
@@ -23,7 +24,7 @@ export default function Header() {
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "/servicios" },
     { label: "Donde trabajamos", href: "/donde-trabajamos" },
-    { label: "Contacto", href: "/contacto" },
+    { label: "Presupuesto rápido", href: "/presupuesto-rapido" },
   ];
 
   // Estados para manejar menús
@@ -58,9 +59,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo / Brand */}
-          <Link href="/" className="text-xl md:text-2xl font-bold hover:text-[#F2B441] transition-colors">
-            Servicios Zona Norte
-          </Link>
+          <Logo size="small" />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
@@ -83,35 +82,26 @@ export default function Header() {
                   key={item.href}
                   ref={dropdownRef}
                   className="relative"
-                  onMouseEnter={() => setServiciosOpen(true)}
-                  onMouseLeave={() => setServiciosOpen(false)}
                 >
-                  <div className="flex items-center gap-1">
-                    <Link
-                      href={item.href}
-                      className="text-sm md:text-base font-medium hover:text-[#F2B441] transition-colors relative group"
+                  <button
+                    type="button"
+                    onClick={() => setServiciosOpen(!serviciosOpen)}
+                    className="text-sm md:text-base font-medium hover:text-[#F2B441] transition-colors relative group flex items-center gap-1"
+                    aria-label="Toggle servicios menu"
+                    aria-expanded={serviciosOpen}
+                  >
+                    {item.label}
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#F2B441] group-hover:w-full transition-all duration-300"></span>
+                    <svg
+                      className={`w-4 h-4 transition-transform duration-200 ${serviciosOpen ? "rotate-180" : ""}`}
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
                     >
-                      {item.label}
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#F2B441] group-hover:w-full transition-all duration-300"></span>
-                    </Link>
-                    <button
-                      type="button"
-                      onClick={() => setServiciosOpen(!serviciosOpen)}
-                      className="text-sm md:text-base font-medium hover:text-[#F2B441] transition-colors flex items-center p-1"
-                      aria-label="Toggle servicios menu"
-                      aria-expanded={serviciosOpen}
-                    >
-                      <svg
-                        className={`w-4 h-4 transition-transform duration-200 ${serviciosOpen ? "rotate-180" : ""}`}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M19 9l-7 7-7-7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </button>
-                  </div>
+                      <path d="M19 9l-7 7-7-7" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
                   
                   {/* Dropdown Menu */}
                   {serviciosOpen && (
@@ -186,19 +176,13 @@ export default function Header() {
               return (
                 <div key={item.href} className="block">
                   <div className="flex items-center justify-between py-3">
-                    <Link
-                      href={item.href}
-                      className="text-base font-medium hover:text-[#F2B441] transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
                     <button
                       type="button"
                       onClick={() => setMobileServiciosOpen(!mobileServiciosOpen)}
-                      className="p-1"
+                      className="text-base font-medium hover:text-[#F2B441] transition-colors flex items-center gap-2"
                       aria-label="Toggle servicios"
                     >
+                      {item.label}
                       <svg
                         className={`w-5 h-5 transition-transform duration-200 ${mobileServiciosOpen ? "rotate-180" : ""}`}
                         fill="none"
