@@ -152,14 +152,6 @@ export default function DondeTrabajamos() {
             <WhatsAppButton className="text-lg px-8 py-6">
               Contactar por WhatsApp
             </WhatsAppButton>
-            <Link href="/contacto">
-              <Button
-                variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#0A2A43] text-lg px-8 py-6 font-semibold"
-              >
-                Solicitar Presupuesto
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
@@ -490,14 +482,6 @@ export default function DondeTrabajamos() {
             <WhatsAppButton className="text-lg px-8 py-6">
               Contactar por WhatsApp
             </WhatsAppButton>
-            <Link href="/contacto">
-              <Button
-                variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#0A2A43] text-lg px-8 py-6 font-semibold"
-              >
-                Solicitar Presupuesto
-              </Button>
-            </Link>
           </div>
           <p className="mt-6 text-sm text-gray-400">
             También podés consultar la landing específica de tu localidad para más información detallada.

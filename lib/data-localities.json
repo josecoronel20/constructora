@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "zonas": [
+      "Pilar Centro",
+      "Pilar Norte",
+      "Pilar Sur",
+      "Manzanares",
+      "Del Viso",
+      "Villa Rosa",
+      "Fátima",
+      "Derqui",
+      "La Lonja",
+      "Los Cardales",
+      "Lagomarsino",
+      "Villa Astolfi",
+      "Villa Verde",
+      "Villa Morra",
+      "Villa Rosa Norte",
+      "Villa Rosa Sur"
+    ],
+    "coordenadas": {
+      "latitud": -34.4734,
+      "longitud": -58.9117
+    }
+  },
+  {
+    "slug": "san-isidro",
+    "nombre": "San Isidro",
+    "zonas": [
+      "San Isidro Centro",
+      "Acassuso",
+      "Béccar",
+      "Martínez",
+      "Villa Adelina",
+      "Boulogne Sur Mer",
+      "La Horqueta",
+      "San Isidro Norte",
+      "San Isidro Sur"
+    ],
+    "coordenadas": {
+      "latitud": -34.4719,
+      "longitud": -58.5270
+    }
+  },
+  {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "zonas": [
+      "Tigre Centro",
+      "Tigre Norte",
+      "Tigre Sur",
+      "Benavídez",
+      "General Pacheco",
+      "Don Torcuato",
+      "El Talar",
+      "Rincón de Milberg",
+      "Nordelta",
+      "Dique Luján",
+      "Islas del Delta"
+    ],
+    "coordenadas": {
+      "latitud": -34.4208,
+      "longitud": -58.5796
+    }
+  },
+  {
+    "slug": "vicente-lopez",
+    "nombre": "Vicente López",
+    "zonas": [
+      "Vicente López Centro",
+      "Olivos",
+      "La Lucila",
+      "Florida",
+      "Florida Oeste",
+      "Munro",
+      "Carapachay",
+      "Villa Martelli",
+      "Villa Adelina"
+    ],
+    "coordenadas": {
+      "latitud": -34.5236,
+      "longitud": -58.4758
+    }
+  },
+  {
+    "slug": "san-miguel",
+    "nombre": "San Miguel",
+    "zonas": [
+      "San Miguel Centro",
+      "Muñiz",
+      "Bella Vista",
+      "José C. Paz",
+      "Santa María",
+      "Villa de Mayo",
+      "San Antonio de Padua",
+      "Trujui"
+    ],
+    "coordenadas": {
+      "latitud": -34.5436,
+      "longitud": -58.7123
+    }
+  },
+  {
+    "slug": "malvinas-argentinas",
+    "nombre": "Malvinas Argentinas",
+    "zonas": [
+      "Los Polvorines",
+      "Grand Bourg",
+      "Tortuguitas",
+      "Villa de Mayo",
+      "Ingeniero Adolfo Sourdeaux",
+      "Tierras Altas",
+      "Villa del Parque"
+    ],
+    "coordenadas": {
+      "latitud": -34.5000,
+      "longitud": -58.7000
+    }
+  },
+  {
+    "slug": "jose-c-paz",
+    "nombre": "José C. Paz",
+    "zonas": [
+      "José C. Paz Centro",
+      "Villa Altube",
+      "Villa Rosa",
+      "Villa Astolfi",
+      "Barrio San Jorge",
+      "Barrio San Martín",
+      "Barrio San Juan",
+      "Barrio San Luis"
+    ],
+    "coordenadas": {
+      "latitud": -34.5167,
+      "longitud": -58.7667
+    }
+  },
+  {
+    "slug": "general-san-martin",
+    "nombre": "General San Martín",
+    "zonas": [
+      "San Martín Centro",
+      "Villa Ballester",
+      "Villa Maipú",
+      "Villa Libertad",
+      "Villa Yapeyú",
+      "Villa Progreso",
+      "Villa Chacabuco",
+      "Villa Sarmiento"
+    ],
+    "coordenadas": {
+      "latitud": -34.5700,
+      "longitud": -58.5400
+    }
+  },
+  {
+    "slug": "san-fernando",
+    "nombre": "San Fernando",
+    "zonas": [
+      "San Fernando Centro",
+      "Victoria",
+      "Virreyes",
+      "San Fernando Norte",
+      "San Fernando Sur",
+      "Islas del Delta",
+      "Carupá"
+    ],
+    "coordenadas": {
+      "latitud": -34.4500,
+      "longitud": -58.5500
+    }
+  },
+  {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "zonas": [
+      "Zárate Centro",
+      "Barrio Norte",
+      "Barrio Sur",
+      "Barrio Oeste",
+      "Barrio Este",
+      "Villa Fox",
+      "Villa Massoni",
+      "Barrio La Esperanza"
+    ],
+    "coordenadas": {
+      "latitud": -34.1000,
+      "longitud": -59.0333
+    }
+  },
+  {
+    "slug": "cardales",
+    "nombre": "Cardales",
+    "zonas": [
+      "Cardales Centro",
+      "Los Cardales",
+      "Villa Rosa",
+      "Manzanares",
+      "Del Viso"
+    ],
+    "coordenadas": {
+      "latitud": -34.4000,
+      "longitud": -58.9000
+    }
+  }
+]
+

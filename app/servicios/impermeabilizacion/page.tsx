@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 import StructuredData from "@/components/SEO/StructuredData";
-import { generateMetadata as genMeta } from "@/lib/seo";
+import FAQSchema from "@/components/SEO/FAQSchema";
+import HowToSchema from "@/components/SEO/HowToSchema";
+import ReviewSchema from "@/components/SEO/ReviewSchema";
+import { generateServiceMetadata, getFAQsFromService, getReviewsDataForSchema } from "@/lib/seo-helpers";
 import { getServiceData } from "@/lib/get-service-data";
 import {
   ServiceHeroSection,
@@ -15,20 +18,7 @@ import {
 } from "../components";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const serviceData = getServiceData("impermeabilizacion");
-  if (!serviceData) {
-    return genMeta({
-      title: "Impermeabilización en Zona Norte",
-      description: "Servicios de impermeabilización en Zona Norte",
-    });
-  }
-
-  return genMeta({
-    title: serviceData.meta.title,
-    description: serviceData.meta.description,
-    keywords: serviceData.meta.keywords,
-    canonical: serviceData.meta.canonical,
-  });
+  return generateServiceMetadata("impermeabilizacion");
 }
 
 export default function Impermeabilizacion() {
@@ -42,6 +32,9 @@ export default function Impermeabilizacion() {
     (block) => block.type === "problem-solution"
   );
 
+  const faqs = getFAQsFromService(serviceData);
+  const reviewsData = getReviewsDataForSchema(serviceData);
+
   return (
     <>
       <Breadcrumbs items={serviceData.seo.breadcrumbs} />
@@ -49,6 +42,22 @@ export default function Impermeabilizacion() {
         type="Service"
         data={serviceData.structuredData.service}
       />
+      {faqs.length > 0 && <FAQSchema faqs={faqs} />}
+      {serviceData.process && serviceData.process.length > 0 && (
+        <HowToSchema
+          name={`Cómo trabajamos: ${serviceData.serviceName} en Zona Norte`}
+          description={serviceData.hero.subtitle}
+          steps={serviceData.process}
+        />
+      )}
+      {reviewsData && (
+        <ReviewSchema
+          businessName={reviewsData.businessName}
+          businessUrl={reviewsData.businessUrl}
+          reviews={reviewsData.reviews}
+          aggregateRating={reviewsData.aggregateRating}
+        />
+      )}
       <main className="flex min-h-screen flex-col bg-background">
         <ServiceHeroSection
           title={serviceData.hero.title}

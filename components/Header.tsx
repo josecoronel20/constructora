@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
-import Logo from "@/components/Logo";
 
 export default function Header() {
   // Lista de subservicios con sus rutas
@@ -24,7 +24,7 @@ export default function Header() {
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "/servicios" },
     { label: "Donde trabajamos", href: "/donde-trabajamos" },
-    { label: "Presupuesto rápido", href: "/presupuesto-rapido" },
+    { label: "Contáctanos", href: "/contactanos" },
   ];
 
   // Estados para manejar menús
@@ -59,7 +59,17 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo / Brand */}
-          <Logo size="small" />
+          <Link href="/" className="hover:opacity-90 transition-opacity flex gap-1 items-center justify-center">
+            <Image
+              src="/images/logo-C&M.png"
+              alt="Constructora & Mantenimiento del Hogar – Zona Norte"
+              width={120}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
+            <span className="text-white text-sm font-bold w-full max-w-40 ">Constructora & Mantenimiento</span>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">

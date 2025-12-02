@@ -41,13 +41,6 @@ export default function CTASection({
           >
             Contactar por WhatsApp
           </WhatsAppButton>
-          <Button
-            
-            variant="outline"
-            className="border-2 border-white text-white hover:bg-white hover:text-[#0A2A43] text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
-          >
-            <Link href={contactUrl}>Solicitar Presupuesto</Link>
-          </Button>
         </div>
         {footerText && (
           <p className="mt-8 text-sm md:text-base text-gray-400">

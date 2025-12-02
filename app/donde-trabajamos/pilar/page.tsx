@@ -8,174 +8,21 @@ import InternalLinksSection from "@/components/locality/InternalLinksSection";
 import CTASection from "@/components/locality/CTASection";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 import StructuredData from "@/components/SEO/StructuredData";
-import { generateMetadata as genMeta } from "@/lib/seo";
+import { generateLocalityMetadata, generateLocalBusinessData } from "@/lib/locality-seo-helpers";
+import { getLocalityData, getServicesForLocality } from "@/lib/get-locality-data";
 
-export const metadata: Metadata = genMeta({
-  title: "Servicios para el Hogar en Pilar – Electricidad, Plomería, Pintura y Más | Zona Norte",
-  description: "Servicios de mantenimiento y reparaciones para hogares en Pilar. Electricidad, plomería, gas, pintura, albañilería, impermeabilización y más. Profesionales verificados, atención rápida y garantía escrita. Atendemos todos los barrios de Pilar.",
-  keywords: "servicios pilar, reparaciones pilar, mantenimiento pilar, electricista pilar, plomero pilar, gasista pilar, pintor pilar, albañil pilar, servicios del hogar pilar, constructora pilar",
-  canonical: "https://servicioszonanorte.com/donde-trabajamos/pilar",
-});
+export const metadata: Metadata = generateLocalityMetadata("pilar");
 
 export default function Pilar() {
-  const servicios = [
-    {
-      nombre: "Electricidad",
-      slug: "electricidad",
-      icon: "⚡",
-      titulo: "Electricista en Pilar",
-      descripcion: "Servicios eléctricos completos para tu hogar en Pilar. Instalaciones, reparaciones urgentes, tableros eléctricos y más. Técnicos certificados con atención rápida en toda la ciudad.",
-      serviciosPrincipales: [
-        "Instalaciones eléctricas completas",
-        "Renovación de cableado",
-        "Tableros eléctricos y llaves térmicas",
-        "Reparación de cortocircuitos",
-        "Instalación de luminarias",
-      ],
-    },
-    {
-      nombre: "Plomería",
-      slug: "plomeria",
-      icon: "🔧",
-      titulo: "Plomero en Pilar",
-      descripcion: "Soluciones de plomería para hogares en Pilar. Reparación de pérdidas, instalación de cañerías, sanitarios, bombas presurizadoras y destapaciones. Atención rápida y garantizada.",
-      serviciosPrincipales: [
-        "Reparación de pérdidas",
-        "Instalación de cañerías",
-        "Cambio de sanitarios",
-        "Instalación de bombas presurizadoras",
-        "Destapaciones menores",
-      ],
-    },
-    {
-      nombre: "Gas",
-      slug: "gas",
-      icon: "🔥",
-      titulo: "Gasista en Pilar",
-      descripcion: "Gasista matriculado en Pilar. Instalación y reparación de artefactos a gas, cañerías, calefactores y reguladores. Trabajos certificados y seguros para tu hogar.",
-      serviciosPrincipales: [
-        "Instalación de artefactos a gas",
-        "Reparación de cañerías",
-        "Instalación de calefactores",
-        "Reguladores y válvulas",
-        "Certificaciones de instalación",
-      ],
-    },
-    {
-      nombre: "Albañilería",
-      slug: "albanileria",
-      icon: "🧱",
-      titulo: "Albañil en Pilar",
-      descripcion: "Trabajos de albañilería para tu hogar en Pilar. Construcción de paredes, durlock, revoques, reparación de filtraciones y refacciones de baños y cocinas.",
-      serviciosPrincipales: [
-        "Construcción de paredes",
-        "Instalación de durlock",
-        "Revoques y terminaciones",
-        "Reparación de filtraciones",
-        "Refacciones de baños y cocinas",
-      ],
-    },
-    {
-      nombre: "Pintura",
-      slug: "pintura",
-      icon: "🎨",
-      titulo: "Pintor en Pilar",
-      descripcion: "Servicios de pintura interior y exterior en Pilar. Preparación de superficies, pintura antihumedad y terminaciones profesionales. Transformá tu hogar con colores de calidad.",
-      serviciosPrincipales: [
-        "Pintura interior y exterior",
-        "Preparación de superficies",
-        "Pintura antihumedad",
-        "Pintura de herrería",
-        "Terminaciones profesionales",
-      ],
-    },
-    {
-      nombre: "Impermeabilización",
-      slug: "impermeabilizacion",
-      icon: "🛡️",
-      titulo: "Impermeabilización en Pilar",
-      descripcion: "Protección contra filtraciones en Pilar. Impermeabilización de losas, techos de chapa, terrazas, balcones y muros. Soluciones duraderas y garantizadas.",
-      serviciosPrincipales: [
-        "Impermeabilización de losas",
-        "Techos de chapa",
-        "Terrazas y balcones",
-        "Membranas asfálticas",
-        "Reparación de filtraciones",
-      ],
-    },
-    {
-      nombre: "Carpintería",
-      slug: "carpinteria",
-      icon: "🪵",
-      titulo: "Carpintería en Pilar",
-      descripcion: "Carpintería de madera para tu hogar en Pilar. Reparaciones, puertas, muebles sencillos, zócalos y decks. Trabajos personalizados y de calidad.",
-      serviciosPrincipales: [
-        "Reparación de muebles",
-        "Instalación de puertas",
-        "Zócalos y molduras",
-        "Decks pequeños",
-        "Trabajos personalizados",
-      ],
-    },
-    {
-      nombre: "Herrería",
-      slug: "herrería",
-      icon: "⚒️",
-      titulo: "Herrería en Pilar",
-      descripcion: "Herrería para el hogar en Pilar. Soldaduras, rejas, portones, estructuras livianas y refuerzos. Trabajos de calidad y durabilidad.",
-      serviciosPrincipales: [
-        "Soldaduras en el hogar",
-        "Instalación de rejas",
-        "Portones y canceles",
-        "Estructuras livianas",
-        "Refuerzos y reparaciones",
-      ],
-    },
-    {
-      nombre: "Techos y Zinguería",
-      slug: "techos",
-      icon: "🏠",
-      titulo: "Techos y Zinguería en Pilar",
-      descripcion: "Reparación de techos y zinguería en Pilar. Reparación de chapas, colocación de nuevas chapas, canaletas, bajadas, babeta, cumbreras, aislaciones y mantenimiento anual. Protección completa para tu hogar.",
-      serviciosPrincipales: [
-        "Reparación de techos de chapa",
-        "Colocación de nuevas chapas",
-        "Instalación de canaletas y bajadas",
-        "Babeta y cumbreras",
-        "Aislaciones térmicas",
-        "Mantenimiento anual",
-      ],
-    },
-    {
-      nombre: "Revestimientos y Pisos",
-      slug: "revestimientos-pisos",
-      icon: "🔲",
-      titulo: "Revestimientos y Pisos en Pilar",
-      descripcion: "Instalación de revestimientos y pisos en Pilar. Cerámicos, porcelanatos, pisos flotantes, vinílicos y nivelaciones. Terminaciones profesionales para tu hogar.",
-      serviciosPrincipales: [
-        "Instalación de cerámicos",
-        "Porcelanatos",
-        "Pisos flotantes",
-        "Pisos vinílicos",
-        "Nivelaciones y preparación",
-      ],
-    },
-    {
-      nombre: "Aire Acondicionado",
-      slug: "aire-acondicionado",
-      icon: "❄️",
-      titulo: "Aire Acondicionado en Pilar",
-      descripcion: "Servicios de aire acondicionado en Pilar. Instalación, mantenimiento, limpieza profunda, recarga de gas y reubicación. Climatización profesional para tu hogar.",
-      serviciosPrincipales: [
-        "Instalación de equipos",
-        "Mantenimiento preventivo",
-        "Limpieza profunda",
-        "Recarga de gas",
-        "Reubicación de equipos",
-      ],
-    },
-  ];
+  const localityData = getLocalityData("pilar");
+  const localBusinessData = generateLocalBusinessData("pilar");
+  
+  if (!localityData || !localBusinessData) {
+    return <div>Localidad no encontrada</div>;
+  }
 
+  const servicios = getServicesForLocality(localityData.nombre);
+  
   const localidadesCercanas = [
     { nombre: "San Isidro", slug: "san-isidro" },
     { nombre: "Tigre", slug: "tigre" },
@@ -183,27 +30,16 @@ export default function Pilar() {
     { nombre: "San Miguel", slug: "san-miguel" },
   ];
 
-  const zonasPilar = [
-    "Pilar Centro",
-    "Pilar Norte",
-    "Pilar Sur",
-    "Manzanares",
-    "Del Viso",
-    "Villa Rosa",
-    "Fátima",
-    "Derqui",
-  ];
-
   const beneficios = [
     {
       icon: "⚡",
       title: "Atención rápida",
-      description: "Respuesta inmediata en toda la zona de Pilar. Coordinamos visitas el mismo día cuando es urgente.",
+      description: `Respuesta inmediata en toda la zona de ${localityData.nombre}. Coordinamos visitas el mismo día cuando es urgente.`,
     },
     {
       icon: "📍",
       title: "Conocimiento de la zona",
-      description: "Trabajamos en todos los barrios de Pilar. Conocemos la ciudad y sus particularidades.",
+      description: `Trabajamos en todos los barrios de ${localityData.nombre}. Conocemos la ciudad y sus particularidades.`,
     },
     {
       icon: "✅",
@@ -217,46 +53,20 @@ export default function Pilar() {
     },
   ];
 
+  const zonasLista = localityData.zonas.slice(0, 8).join(", ");
   const introParagraphs = [
-    `Somos especialistas en <strong>servicios para el hogar en Pilar</strong>, 
+    `Somos especialistas en <strong>servicios para el hogar en ${localityData.nombre}</strong>, 
     orientados exclusivamente a viviendas particulares. Atendemos todos los trabajos 
     de mantenimiento, refacción y mejora del hogar con profesionales verificados y 
-    respuesta rápida en todos los barrios de Pilar.`,
-    `Nuestra cercanía geográfica nos permite ofrecer <strong>atención rápida en Pilar</strong>, 
+    respuesta rápida en todos los barrios de ${localityData.nombre}.`,
+    `Nuestra cercanía geográfica nos permite ofrecer <strong>atención rápida en ${localityData.nombre}</strong>, 
     con disponibilidad inmediata para reparaciones urgentes y trabajos programados. 
-    Conocemos la zona y trabajamos en todos los barrios: Pilar Centro, Pilar Norte, 
-    Pilar Sur, Manzanares, Del Viso, Villa Rosa, Fátima, Derqui y más.`,
-    `Ofrecemos <strong>reparaciones en Pilar</strong>, <strong>servicios del hogar en Pilar</strong> y 
-    <strong>mantenimiento en Pilar</strong> con garantía escrita en todos los trabajos. 
+    Conocemos la zona y trabajamos en todos los barrios: ${zonasLista} y más.`,
+    `Ofrecemos <strong>reparaciones en ${localityData.nombre}</strong>, <strong>servicios del hogar en ${localityData.nombre}</strong> y 
+    <strong>mantenimiento en ${localityData.nombre}</strong> con garantía escrita en todos los trabajos. 
     Técnicos especializados por rubro, materiales de primera calidad y presupuestos 
     claros sin sorpresas.`,
   ];
-
-  const localBusinessData = {
-    name: "Constructora & Mantenimiento del Hogar – Zona Norte - Pilar",
-    image: "https://servicioszonanorte.com/og-image.jpg",
-    url: "https://servicioszonanorte.com/donde-trabajamos/pilar",
-    phone: "+5491123456789",
-    addressLocality: "Pilar",
-    addressRegion: "Buenos Aires",
-    latitude: -34.4734,
-    longitude: -58.9117,
-    openingHours: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "08:00",
-        closes: "20:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-    ],
-    areaServed: ["Pilar", "Pilar Centro", "Pilar Norte", "Pilar Sur", "Manzanares", "Del Viso", "Villa Rosa", "Fátima", "Derqui"],
-  };
 
   return (
     <>
@@ -264,51 +74,51 @@ export default function Pilar() {
         items={[
           { name: "Inicio", url: "/" },
           { name: "Donde trabajamos", url: "/donde-trabajamos" },
-          { name: "Pilar", url: "/donde-trabajamos/pilar" },
+          { name: localityData.nombre, url: `/donde-trabajamos/${localityData.slug}` },
         ]}
       />
       <StructuredData type="LocalBusiness" data={localBusinessData} />
       <main className="flex min-h-screen flex-col">
         <HeroSection
-        title="Servicios para el hogar en Pilar – Electricidad, plomería, pintura y más"
-        description="Profesionales verificados, atención rápida y trabajos garantizados. Un solo equipo para resolver todos tus trabajos de mantenimiento y reparaciones en Pilar."
+        title={`Servicios para el hogar en ${localityData.nombre} – Electricidad, plomería, pintura y más`}
+        description={`Profesionales verificados, atención rápida y trabajos garantizados. Un solo equipo para resolver todos tus trabajos de mantenimiento y reparaciones en ${localityData.nombre}.`}
       />
 
       <LocalIntroSection
-        title="Servicios del hogar en Pilar – Profesionales cerca de tu casa"
+        title={`Servicios del hogar en ${localityData.nombre} – Profesionales cerca de tu casa`}
         paragraphs={introParagraphs}
       />
 
       <ServicesSection
-        title="Todos nuestros servicios en Pilar"
+        title={`Todos nuestros servicios en ${localityData.nombre}`}
         services={servicios}
-        localidad="Pilar"
+        localidad={localityData.nombre}
       />
 
       <BenefitsSection
-        title="Por qué elegirnos en Pilar"
+        title={`Por qué elegirnos en ${localityData.nombre}`}
         benefits={beneficios}
-        localidad="Pilar"
+        localidad={localityData.nombre}
       />
 
       <ZonesSection
-        title="Atendemos en todos los barrios de Pilar"
-        description="Trabajamos en toda la ciudad de Pilar, incluyendo todos sus barrios y zonas. No importa dónde esté tu hogar, llegamos rápido y con la misma calidad de servicio."
-        zones={zonasPilar}
-        localidad="Pilar"
-        footerText="Y en cualquier otro barrio o zona de Pilar. Consultá disponibilidad para tu zona específica."
+        title={`Atendemos en todos los barrios de ${localityData.nombre}`}
+        description={`Trabajamos en toda la ciudad de ${localityData.nombre}, incluyendo todos sus barrios y zonas. No importa dónde esté tu hogar, llegamos rápido y con la misma calidad de servicio.`}
+        zones={localityData.zonas}
+        localidad={localityData.nombre}
+        footerText={`Y en cualquier otro barrio o zona de ${localityData.nombre}. Consultá disponibilidad para tu zona específica.`}
       />
 
       <InternalLinksSection
         title="Más información y servicios"
         localidadesCercanas={localidadesCercanas}
-        localidad="Pilar"
+        localidad={localityData.nombre}
       />
 
       <CTASection
-        title="¿Necesitás un profesional para tu hogar en Pilar?"
-        description="Contactanos ahora y recibí tu presupuesto sin costo. Atención rápida en todos los barrios de Pilar."
-        localidad="Pilar"
+        title={`¿Necesitás un profesional para tu hogar en ${localityData.nombre}?`}
+        description={`Contactanos ahora y recibí tu presupuesto sin costo. Atención rápida en todos los barrios de ${localityData.nombre}.`}
+        localidad={localityData.nombre}
         footerText="También podés llamarnos o completar nuestro formulario de contacto."
       />
       </main>

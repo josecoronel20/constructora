@@ -30,9 +30,9 @@ export default function NotFound() {
               Ver localidades
             </Button>
           </Link>
-          <Link href="/contacto">
+          <Link href="/contactanos">
             <Button variant="outline" className="w-full border-[#0A2A43] text-[#0A2A43] hover:bg-[#0A2A43] hover:text-white">
-              Contacto
+              Contáctanos
             </Button>
           </Link>
         </div>

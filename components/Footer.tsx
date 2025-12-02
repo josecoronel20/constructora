@@ -77,10 +77,10 @@ export default function Footer() {
             <ul className="space-y-3 mb-6">
               <li>
                 <Link
-                  href="/contacto"
+                  href="/contactanos"
                   className="text-sm text-gray-300 hover:text-[#F2B441] transition-colors block"
                 >
-                  Formulario de contacto
+                  Contáctanos
                 </Link>
               </li>
               <li>

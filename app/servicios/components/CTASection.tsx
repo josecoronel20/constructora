@@ -32,14 +32,6 @@ export default function CTASection({
           <WhatsAppButton phone={whatsappUrl.replace("https://wa.me/", "")} size="lg">
             {whatsappLabel}
           </WhatsAppButton>
-          <Link href={contactUrl}>
-            <Button
-              size="lg"
-              variant="outline"
-            >
-              {contactLabel}
-            </Button>
-          </Link>
         </div>
       </div>
     </section>

@@ -81,16 +81,6 @@ export default function HeroSection({
           >
             Contactar por WhatsApp
           </WhatsAppButton>
-          <Link
-            href={contactUrl}
-            className={`border-2 text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all transform hover:scale-105 rounded-md flex items-center justify-center ${
-              hasBackgroundImage
-                ? "border-[#0A2A43] text-[#0A2A43] hover:bg-[#0A2A43] hover:text-white"
-                : "border-white text-white hover:bg-white hover:text-[#0A2A43]"
-            }`}
-          >
-            Solicitar Presupuesto
-          </Link>
         </div>
       </div>
     </section>

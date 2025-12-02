@@ -48,11 +48,38 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
           ...(data.openingHours && {
             openingHoursSpecification: data.openingHours,
           }),
-          priceRange: "$$",
+          priceRange: data.priceRange || "$$",
+          ...(data.aggregateRating && {
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: data.aggregateRating.ratingValue,
+              reviewCount: data.aggregateRating.reviewCount,
+              bestRating: 5,
+              worstRating: 1,
+            },
+          }),
+          ...(data.hasMap && {
+            hasMap: data.hasMap,
+          }),
           areaServed: data.areaServed?.map((area: string) => ({
             "@type": "City",
             name: area,
           })),
+          ...(data.serviceArea && {
+            serviceArea: {
+              "@type": "GeoCircle",
+              geoMidpoint: {
+                "@type": "GeoCoordinates",
+                latitude: data.serviceArea.latitude,
+                longitude: data.serviceArea.longitude,
+              },
+              geoRadius: {
+                "@type": "Distance",
+                value: data.serviceArea.radius,
+                unitCode: "KM",
+              },
+            },
+          }),
         };
 
       case "Service":

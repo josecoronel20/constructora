@@ -196,15 +196,6 @@ export default function Servicios() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
               <WhatsAppButton />
-              <Link href="/contacto">
-                <Button 
-                  size="lg" 
-                  variant="outline" 
-                  className="border-2 border-[#0A2A43] text-[#0A2A43] hover:bg-[#0A2A43] hover:text-white font-semibold shadow-lg transition-all"
-                >
-                  Presupuesto
-                </Button>
-              </Link>
             </div>
           </div>
         </div>
@@ -384,15 +375,6 @@ export default function Servicios() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <WhatsAppButton />
-            <Link href="/contacto">
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-2 border-white text-white hover:bg-white/10"
-              >
-                Formulario de contacto
-              </Button>
-            </Link>
           </div>
         </div>
       </section>

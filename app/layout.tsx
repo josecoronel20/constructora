@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Profesionales verificados, trabajos garantizados.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/logo-C&M.png",
         width: 1200,
         height: 630,
         alt: "Constructora & Mantenimiento del Hogar – Zona Norte",
@@ -75,6 +75,17 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://servicioszonanorte.com",
+  },
+  icons: {
+    icon: [
+      { url: "/images/logo-C&M.png", type: "image/png" },
+      { url: "/images/logo-C&M.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/logo-C&M.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [
+      { url: "/images/logo-C&M.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/images/logo-C&M.png",
   },
 };
 

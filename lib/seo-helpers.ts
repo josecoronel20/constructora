@@ -1,99 +1,69 @@
-import { Metadata } from "next";
+import { getServiceData } from "./get-service-data";
+import type { Metadata } from "next";
 import { generateMetadata as genMeta } from "./seo";
 
-// Helper para generar metadata de servicios
-export function getServiceMetadata(
-  serviceName: string,
-  serviceSlug: string,
-  description: string,
-  keywords: string
-): Metadata {
+/**
+ * Genera metadata mejorada para páginas de servicios con Open Graph específico
+ */
+export async function generateServiceMetadata(slug: string): Promise<Metadata> {
+  const serviceData = getServiceData(slug);
+  if (!serviceData) {
+    return genMeta({
+      title: `Servicio en Zona Norte`,
+      description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte",
+    });
+  }
+
+  // Usar imagen específica del servicio si está disponible
+  const ogImage = serviceData.seo?.openGraph?.image || serviceData.hero?.image?.src || "/og-image.jpg";
+
   return genMeta({
-    title: `${serviceName} en Zona Norte – Profesionales Certificados`,
-    description,
-    keywords,
-    canonical: `https://servicioszonanorte.com/servicios/${serviceSlug}`,
+    title: serviceData.meta.title,
+    description: serviceData.meta.description,
+    keywords: serviceData.meta.keywords,
+    canonical: serviceData.meta.canonical,
+    ogImage: ogImage,
   });
 }
 
-// Helper para generar metadata de localidades
-export function getLocalityMetadata(
-  localityName: string,
-  localitySlug: string,
-  description: string,
-  keywords: string
-): Metadata {
-  return genMeta({
-    title: `Servicios para el Hogar en ${localityName} – Electricidad, Plomería, Pintura y Más | Zona Norte`,
-    description,
-    keywords,
-    canonical: `https://servicioszonanorte.com/donde-trabajamos/${localitySlug}`,
-  });
+/**
+ * Convierte FAQs del formato structuredData al formato del componente FAQSchema
+ */
+export function getFAQsFromService(serviceData: any) {
+  if (!serviceData?.structuredData?.faq) {
+    return [];
+  }
+  
+  return serviceData.structuredData.faq.map((faq: any) => ({
+    q: faq.name,
+    a: faq.acceptedAnswer.text,
+  }));
 }
 
-// Helper para generar breadcrumbs de servicios
-export function getServiceBreadcrumbs(serviceName: string, serviceSlug: string) {
-  return [
-    { name: "Inicio", url: "/" },
-    { name: "Servicios", url: "/servicios" },
-    { name: serviceName, url: `/servicios/${serviceSlug}` },
-  ];
-}
+/**
+ * Obtiene datos de reviews para ReviewSchema
+ */
+export function getReviewsDataForSchema(serviceData: any) {
+  if (!serviceData?.testimonials || serviceData.testimonials.length === 0) {
+    return null;
+  }
 
-// Helper para generar breadcrumbs de localidades
-export function getLocalityBreadcrumbs(localityName: string, localitySlug: string) {
-  return [
-    { name: "Inicio", url: "/" },
-    { name: "Donde trabajamos", url: "/donde-trabajamos" },
-    { name: localityName, url: `/donde-trabajamos/${localitySlug}` },
-  ];
-}
+  const reviews = serviceData.testimonials.map((testimonial: any) => ({
+    name: testimonial.name,
+    text: testimonial.text,
+    rating: testimonial.rating,
+    date: testimonial.date,
+  }));
 
-// Helper para generar structured data de servicios
-export function getServiceStructuredData(
-  serviceType: string,
-  description: string
-) {
+  const averageRating = reviews.reduce((sum: number, r: any) => sum + r.rating, 0) / reviews.length;
+
   return {
-    serviceType,
-    providerName: "Constructora & Mantenimiento del Hogar – Zona Norte",
-    areaServed: "Zona Norte",
-    description,
+    reviews,
+    aggregateRating: {
+      ratingValue: Math.round(averageRating * 10) / 10,
+      reviewCount: reviews.length,
+    },
+    businessName: serviceData.structuredData?.service?.provider?.name || "Constructora & Mantenimiento del Hogar – Zona Norte",
+    businessUrl: serviceData.meta?.canonical || "https://servicioszonanorte.com",
   };
 }
-
-// Helper para generar structured data de localidades
-export function getLocalityStructuredData(
-  localityName: string,
-  localitySlug: string,
-  latitude: number,
-  longitude: number,
-  zones: string[]
-) {
-  return {
-    name: `Constructora & Mantenimiento del Hogar – Zona Norte - ${localityName}`,
-    image: "https://servicioszonanorte.com/og-image.jpg",
-    url: `https://servicioszonanorte.com/donde-trabajamos/${localitySlug}`,
-    phone: "+5491123456789",
-    addressLocality: localityName,
-    addressRegion: "Buenos Aires",
-    latitude,
-    longitude,
-    openingHours: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "08:00",
-        closes: "20:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "09:00",
-        closes: "18:00",
-      },
-    ],
-    areaServed: zones,
-  };
-}
-

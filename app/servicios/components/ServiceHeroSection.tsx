@@ -33,7 +33,7 @@ export default function ServiceHeroSection({
   backgroundStyles,
 }: ServiceHeroSectionProps) {
   const whatsappCTA = ctas.find((cta) => cta.type === "whatsapp");
-  const linkCTA = ctas.find((cta) => cta.type === "link");
+ 
 
   // Work out objectPosition for focal point support if present
   let objectPosition = "center center";
@@ -86,16 +86,7 @@ export default function ServiceHeroSection({
                   size="lg"
                 />
               )}
-              {linkCTA && (
-                <Link href={linkCTA.href}>
-                  <Button
-                    size="lg"
-                    variant="outline"
-                  >
-                    {linkCTA.label}
-                  </Button>
-                </Link>
-              )}
+              
             </div>
           </div>
         </div>

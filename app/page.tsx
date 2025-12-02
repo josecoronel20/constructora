@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import StructuredData from "@/components/SEO/StructuredData";
-import Logo from "@/components/Logo";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
@@ -80,8 +79,15 @@ export default function Home() {
           <div className="relative z-10 max-w-6xl mx-auto w-full flex items-center justify-center h-full py-10">
             <div className="text-center md:text-left max-w-2xl w-full">
               {/* Logo grande */}
-              <div className="mb-8 md:mb-10 mx-auto w-full flex justify-center md:justify-start">
-                <Logo size="large" showLink={false} className="drop-shadow-2xl" />
+              <div className=" mx-auto w-full flex justify-center md:justify-start">
+                <Image
+                  src="/images/logo-C&M.png"
+                  alt="Constructora & Mantenimiento del Hogar – Zona Norte"
+                  width={300}
+                  height={100}
+                  className="h-24 md:h-32 lg:h-40 w-auto drop-shadow-2xl"
+                  priority
+                />
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight text-white drop-shadow-lg">
                 Soluciones completas para tu hogar
@@ -94,15 +100,6 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <WhatsAppButton />
-                <Link href="/presupuesto-rapido">
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="border-2 border-white text-white hover:bg-white/20 font-semibold transition-colors backdrop-blur-sm bg-white/10"
-                  >
-                    Presupuesto
-                  </Button>
-                </Link>
               </div>
             </div>
           </div>
@@ -385,15 +382,6 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <WhatsAppButton />
-              <Link href="/presupuesto-rapido">
-                <Button 
-                  size="lg" 
-                  variant="outline" 
-                  className="border-2 border-white text-white hover:bg-white/10"
-                >
-                  Formulario de contacto
-                </Button>
-              </Link>
             </div>
           </div>
         </section>
