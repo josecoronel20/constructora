@@ -3,6 +3,14 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+// Declare gtag function for TypeScript
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+    gtag_report_conversion?: (url?: string) => boolean;
+  }
+}
+
 interface WhatsAppButtonProps {
   phone?: string;
   message?: string;
@@ -37,6 +45,16 @@ export default function WhatsAppButton({
 }: WhatsAppButtonProps) {
   const whatsappUrl = `https://wa.me/${phone}${message ? `?text=${encodeURIComponent(message)}` : ""}`;
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Report conversion to Google Ads when clicking WhatsApp button
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-11151875862/_Vc5CP7J7bYbEJa-0MUp'
+      });
+    }
+    // Allow default navigation to proceed (open WhatsApp)
+  };
+
   const defaultContent = (
     <>
       {showIcon && (
@@ -58,6 +76,7 @@ export default function WhatsAppButton({
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className={`inline-flex items-center gap-2 text-[#25D366] hover:text-[#128C7E] transition-colors duration-200 font-medium group ${className}`}
       >
         {showIcon && (
@@ -74,6 +93,7 @@ export default function WhatsAppButton({
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className="inline-block"
       >
         <Button
@@ -92,6 +112,7 @@ export default function WhatsAppButton({
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className="inline-block"
     >
       <Button

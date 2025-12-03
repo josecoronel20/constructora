@@ -136,6 +136,23 @@ export default function RootLayout({
             gtag('config', 'AW-11151875862');
           `}
         </Script>
+        {/* Google Ads Conversion Tracking */}
+        <Script id="google-ads-conversion" strategy="afterInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof(url) != 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                'send_to': 'AW-11151875862/_Vc5CP7J7bYbEJa-0MUp',
+                'event_callback': callback
+              });
+              return false;
+            }
+          `}
+        </Script>
         <StructuredData type="Organization" data={organizationData} />
         <Header />
         <main className="min-h-screen">{children}</main>

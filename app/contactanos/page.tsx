@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Breadcrumbs from "@/components/SEO/Breadcrumbs";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Contáctanos – Servicios del Hogar en Zona Norte",
@@ -15,6 +16,16 @@ export const metadata: Metadata = {
 export default function Contactanos() {
   return (
     <>
+      {/* Conversion tracking on page load */}
+      <Script id="contact-page-conversion" strategy="afterInteractive">
+        {`
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-11151875862/_Vc5CP7J7bYbEJa-0MUp'
+            });
+          }
+        `}
+      </Script>
       <Breadcrumbs
         items={[
           { name: "Inicio", url: "/" },
