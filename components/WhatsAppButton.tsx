@@ -49,7 +49,7 @@ export default function WhatsAppButton({
     // Report conversion to Google Ads when clicking WhatsApp button
     if (typeof window !== "undefined" && window.gtag) {
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-11151875862/_Vc5CP7J7bYbEJa-0MUp'
+        'send_to': 'AW-17778042116/_Vc5CP7J7bYbEJa-0MUp'
       });
     }
     // Allow default navigation to proceed (open WhatsApp)

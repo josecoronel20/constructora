@@ -125,7 +125,7 @@ export default function RootLayout({
       <body className={`${inter.className} ${montserrat.variable}`}>
         {/* Google tag (gtag.js) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11151875862"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17778042116"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -133,7 +133,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-11151875862');
+            gtag('config', 'AW-17778042116');
           `}
         </Script>
         {/* Google Ads Conversion Tracking */}
@@ -146,7 +146,7 @@ export default function RootLayout({
                 }
               };
               gtag('event', 'conversion', {
-                'send_to': 'AW-11151875862/_Vc5CP7J7bYbEJa-0MUp',
+                'send_to': 'AW-17778042116/_Vc5CP7J7bYbEJa-0MUp',
                 'event_callback': callback
               });
               return false;
