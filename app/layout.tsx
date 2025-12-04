@@ -16,8 +16,8 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL("https://servicioszonanorte.com"), // Cambiar por tu dominio real
   title: {
-    default: "Constructora & Mantenimiento del Hogar – Zona Norte",
-    template: "%s | Constructora & Mantenimiento del Hogar – Zona Norte",
+    default: "Constructora Zona Norte",
+    template: "%s | Constructora Zona Norte",
   },
   description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Electricidad, plomería, gas, pintura, techos, impermeabilización y más. Profesionales verificados, trabajos garantizados y atención inmediata en Pilar, San Isidro, Tigre y todas las localidades.",
   keywords: [
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "servicios san isidro",
     "servicios tigre",
   ],
-  authors: [{ name: "Constructora & Mantenimiento del Hogar – Zona Norte" }],
-  creator: "Constructora & Mantenimiento del Hogar – Zona Norte",
-  publisher: "Constructora & Mantenimiento del Hogar – Zona Norte",
+  authors: [{ name: "Constructora Zona Norte" }],
+  creator: "Constructora Zona Norte",
+  publisher: "Constructora Zona Norte",
   formatDetection: {
     email: false,
     address: false,
@@ -45,21 +45,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_AR",
     url: "https://servicioszonanorte.com",
-    siteName: "Constructora & Mantenimiento del Hogar – Zona Norte",
-    title: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    siteName: "Constructora Zona Norte",
+    title: "Constructora Zona Norte",
     description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Profesionales verificados, trabajos garantizados.",
     images: [
       {
         url: "/images/logo-C&M.png",
         width: 1200,
         height: 630,
-        alt: "Constructora & Mantenimiento del Hogar – Zona Norte",
+        alt: "Constructora Zona Norte",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    title: "Constructora Zona Norte",
     description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte.",
     images: ["/og-image.jpg"],
   },
@@ -96,7 +96,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const organizationData = {
-    name: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    name: "Constructora Zona Norte",
     url: "https://servicioszonanorte.com",
     logo: "https://servicioszonanorte.com/logo.png",
     phone: "+5491123456789",

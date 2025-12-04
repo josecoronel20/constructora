@@ -16,7 +16,10 @@ export default function Header() {
     { label: "Carpintería", href: "/servicios/carpinteria" },
     { label: "Herrería", href: "/servicios/herreria" },
     { label: "Techos y Zinguería", href: "/servicios/techos" },
-    { label: "Revestimientos y pisos", href: "/servicios/revestimientos-pisos" },
+    {
+      label: "Revestimientos y pisos",
+      href: "/servicios/revestimientos-pisos",
+    },
     { label: "Aire Acondicionado", href: "/servicios/aire-acondicionado" },
   ];
 
@@ -38,7 +41,10 @@ export default function Header() {
     if (typeof window === "undefined" || !serviciosOpen) return;
 
     const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
         setServiciosOpen(false);
       }
     };
@@ -59,16 +65,26 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo / Brand */}
-          <Link href="/" className="hover:opacity-90 transition-opacity flex gap-1 items-center justify-center">
+          <Link
+            href="/"
+            className="hover:opacity-90 transition-opacity flex gap-1 items-center justify-center"
+          >
             <Image
               src="/images/logo-C&M.png"
-              alt="Constructora & Mantenimiento del Hogar – Zona Norte"
+              alt="Constructora Zona Norte"
               width={120}
               height={40}
               className="h-10 w-auto"
               priority
             />
-            <span className="text-white text-sm font-bold w-full max-w-40 ">Constructora & Mantenimiento</span>
+            <div className="flex flex-col w-full max-w-40 leading-tight">
+              <span className="text-white text-sm font-bold w-full leading-tight">
+                Constructora
+              </span>
+              <span className="text-[#F2B441] text-base font-bold mx-auto leading-tight">
+                Zona Norte
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -88,11 +104,7 @@ export default function Header() {
               }
 
               return (
-                <div
-                  key={item.href}
-                  ref={dropdownRef}
-                  className="relative"
-                >
+                <div key={item.href} ref={dropdownRef} className="relative">
                   <button
                     type="button"
                     onClick={() => setServiciosOpen(!serviciosOpen)}
@@ -103,16 +115,22 @@ export default function Header() {
                     {item.label}
                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#F2B441] group-hover:w-full transition-all duration-300"></span>
                     <svg
-                      className={`w-4 h-4 transition-transform duration-200 ${serviciosOpen ? "rotate-180" : ""}`}
+                      className={`w-4 h-4 transition-transform duration-200 ${
+                        serviciosOpen ? "rotate-180" : ""
+                      }`}
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M19 9l-7 7-7-7" strokeLinecap="round" strokeLinejoin="round" />
+                      <path
+                        d="M19 9l-7 7-7-7"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
                     </svg>
                   </button>
-                  
+
                   {/* Dropdown Menu */}
                   {serviciosOpen && (
                     <div className="absolute top-full left-0 mt-1 min-w-[240px] bg-white text-[#0A2A43] shadow-xl rounded-md z-50 border border-gray-100 overflow-hidden">
@@ -148,7 +166,11 @@ export default function Header() {
                 strokeWidth="2"
                 viewBox="0 0 24 24"
               >
-                <path d="M6 18L18 6M6 6l12 12" strokeLinecap="round" strokeLinejoin="round" />
+                <path
+                  d="M6 18L18 6M6 6l12 12"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
             ) : (
               <svg
@@ -188,19 +210,27 @@ export default function Header() {
                   <div className="flex items-center justify-between py-3">
                     <button
                       type="button"
-                      onClick={() => setMobileServiciosOpen(!mobileServiciosOpen)}
+                      onClick={() =>
+                        setMobileServiciosOpen(!mobileServiciosOpen)
+                      }
                       className="text-base font-medium hover:text-[#F2B441] transition-colors flex items-center gap-2"
                       aria-label="Toggle servicios"
                     >
                       {item.label}
                       <svg
-                        className={`w-5 h-5 transition-transform duration-200 ${mobileServiciosOpen ? "rotate-180" : ""}`}
+                        className={`w-5 h-5 transition-transform duration-200 ${
+                          mobileServiciosOpen ? "rotate-180" : ""
+                        }`}
                         fill="none"
                         stroke="currentColor"
                         strokeWidth="2"
                         viewBox="0 0 24 24"
                       >
-                        <path d="M19 9l-7 7-7-7" strokeLinecap="round" strokeLinejoin="round" />
+                        <path
+                          d="M19 9l-7 7-7-7"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
                       </svg>
                     </button>
                   </div>

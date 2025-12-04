@@ -37,7 +37,7 @@ export function generateLocalBusinessData(slug: string) {
   }
 
   return {
-    name: `Constructora & Mantenimiento del Hogar – Zona Norte - ${localityData.nombre}`,
+    name: `Constructora Zona Norte - ${localityData.nombre}`,
     image: "https://servicioszonanorte.com/og-image.jpg",
     url: `https://servicioszonanorte.com/donde-trabajamos/${localityData.slug}`,
     phone: "+5491124052012",

@@ -6,7 +6,7 @@ import StructuredData from "@/components/SEO/StructuredData";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Constructora & Mantenimiento del Hogar – Zona Norte",
+  title: "Constructora Zona Norte",
   description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Electricidad, plomería, gas, pintura, techos, impermeabilización y más. Profesionales verificados, trabajos garantizados y atención inmediata en Pilar, San Isidro, Tigre y todas las localidades.",
   keywords: "servicios zona norte, mantenimiento hogar zona norte, reparaciones zona norte, electricista zona norte, plomero zona norte, constructora zona norte",
   alternates: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const localBusinessData = {
-    name: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    name: "Constructora Zona Norte",
     image: "https://servicioszonanorte.com/og-image.jpg",
     url: "https://servicioszonanorte.com",
     phone: "+5491123456789",
@@ -82,7 +82,7 @@ export default function Home() {
               <div className=" mx-auto w-full flex justify-center md:justify-start">
                 <Image
                   src="/images/logo-C&M.png"
-                  alt="Constructora & Mantenimiento del Hogar – Zona Norte"
+                  alt="Constructora Zona Norte"
                   width={300}
                   height={100}
                   className="h-24 md:h-32 lg:h-40 w-auto drop-shadow-2xl"

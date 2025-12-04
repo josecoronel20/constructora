@@ -63,7 +63,7 @@ export function getReviewsDataForSchema(serviceData: any) {
       ratingValue: Math.round(averageRating * 10) / 10,
       reviewCount: reviews.length,
     },
-    businessName: serviceData.structuredData?.service?.provider?.name || "Constructora & Mantenimiento del Hogar – Zona Norte",
+    businessName: serviceData.structuredData?.service?.provider?.name || "Constructora Zona Norte",
     businessUrl: serviceData.meta?.canonical || "https://servicioszonanorte.com",
   };
 }

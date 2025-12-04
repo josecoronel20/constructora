@@ -10,7 +10,7 @@ interface SEOProps {
   noindex?: boolean;
 }
 
-const baseUrl = "https://servicioszonanorte.com"; // Cambiar por tu dominio real
+const baseUrl = "https://constructorazonanorte.com/"; // Cambiar por tu dominio real
 
 export function generateMetadata({
   title,
@@ -21,7 +21,7 @@ export function generateMetadata({
   type = "website",
   noindex = false,
 }: SEOProps): Metadata {
-  const fullTitle = title.includes("|") ? title : `${title} | Constructora & Mantenimiento del Hogar – Zona Norte`;
+  const fullTitle = title.includes("|") ? title : `${title} | Constructora Zona Norte`;
   const fullDescription = description;
   const url = canonical || baseUrl;
   const keywordsArray = Array.isArray(keywords) ? keywords : keywords ? [keywords] : undefined;
@@ -30,9 +30,9 @@ export function generateMetadata({
     title: fullTitle,
     description: fullDescription,
     keywords: keywordsArray,
-    authors: [{ name: "Constructora & Mantenimiento del Hogar – Zona Norte" }],
-    creator: "Constructora & Mantenimiento del Hogar – Zona Norte",
-    publisher: "Constructora & Mantenimiento del Hogar – Zona Norte",
+    authors: [{ name: "Constructora Zona Norte" }],
+    creator: "Constructora Zona Norte",
+    publisher: "Constructora Zona Norte",
     robots: {
       index: !noindex,
       follow: !noindex,
@@ -53,7 +53,7 @@ export function generateMetadata({
       url: url,
       title: fullTitle,
       description: fullDescription,
-      siteName: "Constructora & Mantenimiento del Hogar – Zona Norte",
+      siteName: "Constructora Zona Norte",
       images: [
         {
           url: `${baseUrl}${ogImage}`,

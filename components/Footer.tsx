@@ -95,7 +95,7 @@ export default function Footer() {
             </ul>
             <div className="pt-4 border-t border-[#3F6E8F]">
               <p className="text-xs text-gray-400">
-                © 2024 Constructora & Mantenimiento del Hogar – Zona Norte. Todos los
+                © 2024 Constructora Zona Norte. Todos los
                 derechos reservados.
               </p>
             </div>
