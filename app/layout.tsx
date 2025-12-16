@@ -19,7 +19,8 @@ export const metadata: Metadata = {
     default: "Constructora Zona Norte",
     template: "%s | Constructora Zona Norte",
   },
-  description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Electricidad, plomería, gas, pintura, techos, impermeabilización y más. Profesionales verificados, trabajos garantizados y atención inmediata en Pilar, San Isidro, Tigre y todas las localidades.",
+  description:
+    "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Electricidad, plomería, gas, pintura, techos, impermeabilización y más. Profesionales verificados, trabajos garantizados y atención inmediata en Pilar, San Isidro, Tigre y todas las localidades.",
   keywords: [
     "servicios zona norte",
     "mantenimiento hogar zona norte",
@@ -47,7 +48,8 @@ export const metadata: Metadata = {
     url: "https://servicioszonanorte.com",
     siteName: "Constructora Zona Norte",
     title: "Constructora Zona Norte",
-    description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Profesionales verificados, trabajos garantizados.",
+    description:
+      "Servicios de mantenimiento y reparaciones para hogares en Zona Norte. Profesionales verificados, trabajos garantizados.",
     images: [
       {
         url: "/images/logo-C&M.png",
@@ -60,7 +62,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Constructora Zona Norte",
-    description: "Servicios de mantenimiento y reparaciones para hogares en Zona Norte.",
+    description:
+      "Servicios de mantenimiento y reparaciones para hogares en Zona Norte.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -125,17 +128,19 @@ export default function RootLayout({
       <body className={`${inter.className} ${montserrat.variable}`}>
         {/* Google tag (gtag.js) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17778042116"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17809225020"
           strategy="afterInteractive"
-        />
+        ></Script>
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17778042116');
+            gtag('config', 'AW-17809225020');
           `}
         </Script>
+
         {/* Google Ads Conversion Tracking */}
         <Script id="google-ads-conversion" strategy="afterInteractive">
           {`
@@ -161,4 +166,3 @@ export default function RootLayout({
     </html>
   );
 }
-
