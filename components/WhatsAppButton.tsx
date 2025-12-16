@@ -7,7 +7,6 @@ import Link from "next/link";
 declare global {
   interface Window {
     gtag?: (...args: any[]) => void;
-    gtag_report_conversion?: (url?: string) => boolean;
   }
 }
 
@@ -48,8 +47,14 @@ export default function WhatsAppButton({
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     // Report conversion to Google Ads when clicking WhatsApp button
     if (typeof window !== "undefined" && window.gtag) {
+      // Generate unique transaction ID to avoid duplicate conversions
+      const transactionId = `wpp_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-17778042116/_Vc5CP7J7bYbEJa-0MUp'
+        'send_to': 'AW-17809225020/8rM6CMrWpNIbELzqjKxC',
+        'value': 1.0,
+        'currency': 'ARS',
+        'transaction_id': transactionId
       });
     }
     // Allow default navigation to proceed (open WhatsApp)

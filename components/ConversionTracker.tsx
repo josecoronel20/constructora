@@ -18,7 +18,10 @@ export default function ConversionTracker({ conversionId }: ConversionTrackerPro
     const checkGtag = () => {
       if (typeof window !== "undefined" && window.gtag) {
         window.gtag('event', 'conversion', {
-          'send_to': conversionId
+          'send_to': conversionId,
+          'value': 1.0,
+          'currency': 'ARS',
+          'transaction_id': ''
         });
       } else {
         // Retry after a short delay if gtag is not yet available
