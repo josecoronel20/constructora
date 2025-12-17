@@ -11,6 +11,8 @@ declare global {
 }
 
 interface WhatsAppButtonProps {
+  phonepart1?: string;
+  phonepart2?: string;
   phone?: string;
   message?: string;
   size?: "default" | "sm" | "lg" | "icon";
@@ -34,7 +36,9 @@ const WhatsAppIcon = ({ className = "w-5 h-5" }: { className?: string }) => (
 );
 
 export default function WhatsAppButton({
-  phone = "5491124052012",
+  phonepart1 = "549112",
+  phonepart2 = "4052012",
+  phone = phonepart1 + phonepart2,
   message = "",
   size = "lg",
   variant = "default",

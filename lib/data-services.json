@@ -370,12 +370,7 @@
       "title": "Electricista en Zona Norte – Técnicos Expertos en Instalaciones y Reparaciones",
       "subtitle": "Instalaciones eléctricas completas, renovación de cableado, tableros, reparaciones urgentes y sistemas de seguridad. Respuesta rápida y garantía escrita.",
       "ctas": [
-        {
-          "type": "whatsapp",
-          "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
-          "priority": 1
-        },
+        
         {
           "type": "link",
           "label": "Solicitar presupuesto",
@@ -558,7 +553,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -588,7 +582,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/electricidad"
         },
@@ -651,7 +644,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -718,7 +710,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -897,7 +888,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -927,7 +917,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/gas"
         },
@@ -990,7 +979,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -1057,7 +1045,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -1233,7 +1220,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -1263,7 +1249,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/albanileria"
         },
@@ -1326,7 +1311,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -1393,7 +1377,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -1568,7 +1551,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -1598,7 +1580,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/pintura"
         },
@@ -1661,7 +1642,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -1728,7 +1708,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -1902,7 +1881,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -1932,7 +1910,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/impermeabilizacion"
         },
@@ -1995,7 +1972,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -2062,7 +2038,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -2236,7 +2211,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -2266,7 +2240,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/carpinteria"
         },
@@ -2329,7 +2302,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -2396,7 +2368,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -2569,7 +2540,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -2599,7 +2569,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/herrería"
         },
@@ -2662,7 +2631,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -2729,7 +2697,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -2915,7 +2882,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -2945,7 +2911,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/techos"
         },
@@ -3008,7 +2973,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -3075,7 +3039,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -3249,7 +3212,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -3279,7 +3241,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/revestimientos-pisos"
         },
@@ -3342,7 +3303,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -3409,7 +3369,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -3586,7 +3545,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -3616,7 +3574,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/aire-acondicionado"
         },
@@ -3679,7 +3636,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }
@@ -3746,7 +3702,6 @@
         {
           "type": "whatsapp",
           "label": "WhatsApp",
-          "href": "https://wa.me/5491124052012",
           "priority": 1
         },
         {
@@ -3920,7 +3875,6 @@
     },
     "contact": {
       "phone": "+54 9 11 2405 2012",
-      "whatsapp": "https://wa.me/5491124052012",
       "email": "contacto@servicioszonanorte.com",
       "contactForm": "/contacto",
       "officeHours": "Lun-Sab 08:00-19:00",
@@ -3950,7 +3904,6 @@
         "provider": {
           "@type": "LocalBusiness",
           "name": "Constructora Zona Norte",
-          "telephone": "+5491124052012",
           "areaServed": "Zona Norte",
           "url": "https://servicioszonanorte.com/servicios/limpieza-post-obra"
         },
@@ -4013,7 +3966,6 @@
         "type": "cta",
         "title": "Solicitá presupuesto",
         "ctas": [
-          { "type": "whatsapp", "label": "WhatsApp", "href": "https://wa.me/5491124052012" },
           { "type": "link", "label": "Formulario", "href": "/contacto" }
         ]
       }

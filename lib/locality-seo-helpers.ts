@@ -40,7 +40,6 @@ export function generateLocalBusinessData(slug: string) {
     name: `Constructora Zona Norte - ${localityData.nombre}`,
     image: "https://servicioszonanorte.com/og-image.jpg",
     url: `https://servicioszonanorte.com/donde-trabajamos/${localityData.slug}`,
-    phone: "+5491124052012",
     addressLocality: localityData.nombre,
     addressRegion: "Buenos Aires",
     latitude: localityData.coordenadas.latitud,

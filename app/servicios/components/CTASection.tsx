@@ -5,7 +5,6 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 interface CTASectionProps {
   title: string;
   description: string;
-  whatsappUrl?: string;
   contactUrl?: string;
   whatsappLabel?: string;
   contactLabel?: string;
@@ -14,7 +13,6 @@ interface CTASectionProps {
 export default function CTASection({
   title,
   description,
-  whatsappUrl = "https://wa.me/5491124052012",
   contactUrl = "/contacto",
   whatsappLabel = "WhatsApp",
   contactLabel = "Formulario de contacto",
@@ -28,8 +26,8 @@ export default function CTASection({
         <p className="text-base md:text-lg mb-6 text-primary-100 opacity-90">
           {description}
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <WhatsAppButton phone={whatsappUrl.replace("https://wa.me/", "")} size="lg">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <WhatsAppButton size="lg" className="text-lg px-8 py-6">
             {whatsappLabel}
           </WhatsAppButton>
         </div>

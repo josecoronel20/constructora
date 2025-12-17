@@ -73,7 +73,8 @@ export default function Contactanos() {
                   También podés contactarnos por este número de WhatsApp alternativo.
                 </p>
                 <WhatsAppButton 
-                  phone="5491123787750"
+                  phonepart1="5491123"
+                  phonepart2="787750"
                   className="w-full bg-white text-[#0A2A43] hover:bg-white/90 text-lg font-semibold py-3 px-6"
                   showIcon={false}
                 >

@@ -80,13 +80,10 @@ export default function ServiceHeroSection({
               {subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              {whatsappCTA && (
-                <WhatsAppButton
-                  phone={whatsappCTA.href.replace("https://wa.me/", "")}
-                  size="lg"
-                />
-              )}
-              
+              <WhatsAppButton
+                phone={whatsappCTA ? whatsappCTA.href.replace("https://wa.me/", "") : undefined}
+                size="lg"
+              />
             </div>
           </div>
         </div>
